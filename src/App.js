@@ -7,12 +7,15 @@ import {
   Toolbar,
   makeStyles
 } from "@material-ui/core";
+import Logo from "./assets/smashAPILogo.png";
 import { HomePage } from "./pages/HomePage";
 
 const useStyles = makeStyles(theme => ({
-  title: {
-    ...theme.typography.subtitle1,
-    fontSize: "24pt"
+  logoContainer: {
+    height: 48
+  },
+  logo: {
+    height: "100%"
   }
 }));
 
@@ -22,7 +25,7 @@ function App() {
   const theme = createMuiTheme({
     palette: {
       primary: {
-        main: "#ff0000"
+        main: "#ff4444"
       }
     }
   });
@@ -31,7 +34,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <AppBar position="sticky">
         <Toolbar>
-          <div className={classes.title}>Smash Ultimate API</div>
+          <div className={classes.logoContainer}>
+            <img src={Logo} className={classes.logo} alt="API Logo" />
+          </div>
         </Toolbar>
       </AppBar>
       <HomePage />
