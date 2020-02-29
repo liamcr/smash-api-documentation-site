@@ -1,0 +1,34 @@
+.endpoint-name {
+  font-family: "Lato";
+  margin-bottom: 12px;
+  font-size: 24pt;
+}
+
+.usage-path {
+  font-family: "Lato";
+  font-size: 20pt;
+  margin-bottom: 8px;
+}
+
+.usage-description {
+  font-family: "Open Sans";
+  margin-bottom: 16px;
+}
+
+.usage-header,
+.usage-table-header {
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 12pt;
+  margin-bottom: 8px;
+}
+
+.usage-url {
+  font-family: monospace;
+  font-size: 12pt;
+  margin-bottom: 16px;
+  background-color: #f0f0f0;
+  padding: 0 4px;
+  display: inline-block;
+  border-radius: 2px;
+}
