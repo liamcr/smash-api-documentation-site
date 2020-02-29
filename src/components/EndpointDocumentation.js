@@ -12,22 +12,18 @@ import {
 } from "@material-ui/core";
 import "../styles/EndpointDocumentation.css";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   table: {
     marginBottom: 16
+  },
+  usageText: {
+    backgroundColor: theme.palette.background.default
   }
-});
-
-const StyledTableCell = withStyles(theme => ({
-  head: {
-    backgroundColor: theme.palette.grey[300],
-    color: theme.palette.common.black
-  }
-}))(TableCell);
+}));
 
 const StyledTableRow = withStyles(theme => ({
   root: {
-    "&:nth-of-type(even)": {
+    "&:nth-of-type(odd)": {
       backgroundColor: theme.palette.background.default
     }
   }
@@ -44,7 +40,9 @@ export function EndpointDocumentation({ endpoint }) {
           <div className="usage-path">{usage.path}</div>
           <div className="usage-description">{usage.description}</div>
           <div className="usage-header">Usage</div>
-          <div className="usage-url">{`GET ${usage.url}`}</div>
+          <div
+            className={`usage-url ${classes.usageText}`}
+          >{`GET ${usage.url}`}</div>
           {usage.queryParamKeys.length > 0 && (
             <div className="usage-table-header">Query Parameters</div>
           )}
@@ -53,8 +51,8 @@ export function EndpointDocumentation({ endpoint }) {
               <Table>
                 <TableHead>
                   <TableRow>
-                    <StyledTableCell>Key</StyledTableCell>
-                    <StyledTableCell>Value</StyledTableCell>
+                    <TableCell>Key</TableCell>
+                    <TableCell>Value</TableCell>
                   </TableRow>
                 </TableHead>
                 <TableBody>
@@ -79,9 +77,9 @@ export function EndpointDocumentation({ endpoint }) {
             <Table>
               <TableHead>
                 <TableRow>
-                  <StyledTableCell>Key</StyledTableCell>
-                  <StyledTableCell>Value Type</StyledTableCell>
-                  <StyledTableCell>Value Description</StyledTableCell>
+                  <TableCell>Key</TableCell>
+                  <TableCell>Value Type</TableCell>
+                  <TableCell>Value Description</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
