@@ -5,10 +5,13 @@ import {
   ThemeProvider,
   AppBar,
   Toolbar,
-  makeStyles
+  makeStyles,
+  CssBaseline
 } from "@material-ui/core";
 import Logo from "./assets/smashAPILogo.png";
 import { HomePage } from "./pages/HomePage";
+import { Documentation } from "./pages/Documentation";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   logoContainer: {
@@ -32,6 +35,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       <AppBar position="sticky">
         <Toolbar>
           <div className={classes.logoContainer}>
@@ -39,7 +43,18 @@ function App() {
           </div>
         </Toolbar>
       </AppBar>
-      <HomePage />
+
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route path="/docs">
+            <Documentation />
+          </Route>
+          <Redirect from="*" to="/" />
+        </Switch>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
