@@ -1,6 +1,7 @@
 export const endpointDocs = [
   {
     endpointName: "Characters",
+    id: "characters-endpoint",
     usages: [
       {
         path: "/characters",
@@ -36,7 +37,9 @@ export const endpointDocs = [
             {
               key: "attributes",
               valueType: "Character Attributes Object",
-              valueDescription: "Object containing all character attribute info"
+              valueDescription:
+                "Object containing all character attribute info",
+              linkTo: "character-attributes"
             }
           ]
         }
@@ -81,7 +84,9 @@ export const endpointDocs = [
             {
               key: "attributes",
               valueType: "Character Attributes Object",
-              valueDescription: "Object containing all character attribute info"
+              valueDescription:
+                "Object containing all character attribute info",
+              linkTo: "character-attributes"
             }
           ]
         }

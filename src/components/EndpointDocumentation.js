@@ -8,7 +8,8 @@ import {
   TableCell,
   TableBody,
   makeStyles,
-  withStyles
+  withStyles,
+  Link
 } from "@material-ui/core";
 import "../styles/EndpointDocumentation.css";
 
@@ -34,7 +35,9 @@ export function EndpointDocumentation({ endpoint }) {
 
   return (
     <div className="endpoint-container">
-      <div className="docs-header">{endpoint.endpointName}</div>
+      <div className="docs-header" id={endpoint.id}>
+        {endpoint.endpointName}
+      </div>
       {endpoint.usages.map((usage, index) => (
         <div className="endpoint-usage" key={index}>
           <div className="usage-path">{usage.path}</div>
@@ -84,7 +87,15 @@ export function EndpointDocumentation({ endpoint }) {
                 {usage.responseFormat.responseObjectKeys.map((key, index) => (
                   <StyledTableRow key={index}>
                     <TableCell>{key.key}</TableCell>
-                    <TableCell>{key.valueType}</TableCell>
+                    <TableCell>
+                      {key.linkTo === undefined ? (
+                        key.valueType
+                      ) : (
+                        <Link href={`/docs#${key.linkTo}`}>
+                          {key.valueType}
+                        </Link>
+                      )}
+                    </TableCell>
                     <TableCell>{key.valueDescription}</TableCell>
                   </StyledTableRow>
                 ))}
