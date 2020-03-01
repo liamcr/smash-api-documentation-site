@@ -1,5 +1,33 @@
 import React from "react";
+import { Endpoints } from "../components/Endpoints";
+import { Paper, makeStyles, useMediaQuery } from "@material-ui/core";
+import { Types } from "../components/Types";
+
+const useStyles = makeStyles({
+  paper: {
+    width: "62%",
+    margin: "32px auto",
+    padding: 24
+  },
+  paperSmallScreen: {
+    width: "95%",
+    margin: "32px auto",
+    padding: 24
+  }
+});
 
 export function Documentation() {
-  return <div>Docs</div>;
+  const classes = useStyles();
+
+  const smallScreen = useMediaQuery("(max-width: 730px)");
+
+  return (
+    <Paper
+      className={smallScreen ? classes.paperSmallScreen : classes.paper}
+      elevation={1}
+    >
+      <Endpoints />
+      <Types />
+    </Paper>
+  );
 }
