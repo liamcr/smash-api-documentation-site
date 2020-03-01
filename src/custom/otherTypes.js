@@ -1,21 +1,25 @@
 export const otherTypes = [
   {
     name: "Character Attributes",
+    id: "character-attributes",
     keys: [
       {
         name: "speed",
         type: "Character Speed Object",
-        description: "Object containing information about character speed"
+        description: "Object containing information about character speed",
+        linkTo: "character-speed"
       },
       {
         name: "jump",
         type: "Character Jump Object",
-        description: "Object containing information about character jump"
+        description: "Object containing information about character jump",
+        linkTo: "character-jump"
       },
       {
         name: "dodge",
         type: "Character Dodge Object",
-        description: "Object containing information about character dodges"
+        description: "Object containing information about character dodges",
+        linkTo: "character-dodge"
       },
       {
         name: "traction",
@@ -27,6 +31,7 @@ export const otherTypes = [
   },
   {
     name: "Character Speed",
+    id: "character-speed",
     keys: [
       {
         name: "airSpeed",
@@ -70,6 +75,7 @@ export const otherTypes = [
   },
   {
     name: "Character Dodge",
+    id: "character-dodge",
     keys: [
       {
         name: "airDodge",
@@ -80,7 +86,8 @@ export const otherTypes = [
       {
         name: "spotDodge",
         type: "Character Dodge Data Object",
-        description: "Frame data for a character's spot dodge."
+        description: "Frame data for a character's spot dodge.",
+        linkTo: "character-dodge-data"
       },
       {
         name: "roll",
@@ -92,6 +99,7 @@ export const otherTypes = [
   },
   {
     name: "Character Dodge Data",
+    id: "character-dodge-data",
     keys: [
       {
         name: "intagibilityFrames",
@@ -109,6 +117,7 @@ export const otherTypes = [
   },
   {
     name: "Character Jump",
+    id: "character-jump",
     keys: [
       {
         name: "fullHop",

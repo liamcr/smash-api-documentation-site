@@ -9,7 +9,8 @@ import {
   TableCell,
   TableBody,
   withStyles,
-  makeStyles
+  makeStyles,
+  Link
 } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
@@ -31,10 +32,14 @@ export function Types() {
 
   return (
     <div className="types-container">
-      <div className="docs-header">Types</div>
+      <div className="docs-header" id="types-header">
+        Types
+      </div>
       {otherTypes.map((type, index) => (
         <div key={index} className="type-container">
-          <div className="table-header">{type.name}</div>
+          <div className="table-header" id={type.id}>
+            {type.name}
+          </div>
           <TableContainer className={classes.table} component={Paper}>
             <Table>
               <TableHead>
@@ -48,7 +53,13 @@ export function Types() {
                 {type.keys.map((key, index) => (
                   <StyledTableRow key={index}>
                     <TableCell>{key.name}</TableCell>
-                    <TableCell>{key.type}</TableCell>
+                    <TableCell>
+                      {key.linkTo === undefined ? (
+                        key.type
+                      ) : (
+                        <Link href={`/docs#${key.linkTo}`}>{key.type}</Link>
+                      )}
+                    </TableCell>
                     <TableCell>{key.description}</TableCell>
                   </StyledTableRow>
                 ))}

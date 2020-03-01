@@ -13,12 +13,14 @@ import {
 } from "@material-ui/core";
 import { Brightness4, Brightness7 } from "@material-ui/icons";
 import Logo from "./assets/smashAPILogo.png";
-import LogoWhite from "./assets/smashAPILogoWhite.png";
 import { HomePage } from "./pages/HomePage";
 import { Documentation } from "./pages/Documentation";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
+  appBarButton: {
+    color: "rgba(0, 0, 0, 0.54)"
+  },
   logoContainer: {
     height: 48,
     flexGrow: 1
@@ -71,18 +73,20 @@ function App() {
               disableTouchRipple
               href="/"
             >
-              <img
-                src={mode === "light" ? Logo : LogoWhite}
-                className={classes.logo}
-                alt="API Logo"
-              />
+              <img src={Logo} className={classes.logo} alt="API Logo" />
             </ButtonBase>
           </div>
 
-          <IconButton aria-label="Toggle light/dark theme" onClick={toggleMode}>
+          <IconButton
+            aria-label="Toggle light/dark theme"
+            className={classes.appBarButton}
+            onClick={toggleMode}
+          >
             {mode === "light" ? <Brightness4 /> : <Brightness7 />}
           </IconButton>
-          <Button href="/docs">Documentation</Button>
+          <Button className={classes.appBarButton} href="/docs">
+            Documentation
+          </Button>
         </Toolbar>
       </AppBar>
 
