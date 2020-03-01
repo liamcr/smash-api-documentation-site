@@ -1,0 +1,2041 @@
+{
+    "statusCode": 200,
+    "body": [
+        {
+            "moves": [
+                {
+                    "Jab 1": [
+                        {
+                            "advantages": "-14",
+                            "notes": "Transitions to Jab 2 as early as frame 5",
+                            "startup": "2",
+                            "shieldLag": "8",
+                            "percentBaseDamage": "2.2",
+                            "shieldStun": "3",
+                            "activeFrames": "2—3",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "19"
+                        }
+                    ]
+                },
+                {
+                    "Jab 2": [
+                        {
+                            "advantages": "-16",
+                            "notes": "Transitions to Jab 3 as early as frame 6",
+                            "startup": "2",
+                            "shieldLag": "5",
+                            "percentBaseDamage": "1.7",
+                            "shieldStun": "3",
+                            "activeFrames": "2—3",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "21"
+                        }
+                    ]
+                },
+                {
+                    "Jab 3": [
+                        {
+                            "advantages": "-29",
+                            "notes": "--",
+                            "startup": "3",
+                            "shieldLag": "11",
+                            "percentBaseDamage": "4.0",
+                            "shieldStun": "5",
+                            "activeFrames": "3—4",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "33"
+                        }
+                    ]
+                },
+                {
+                    "Forward Tilt": [
+                        {
+                            "advantages": "-13",
+                            "notes": "--",
+                            "startup": "5",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "7.0",
+                            "shieldStun": "7",
+                            "activeFrames": "5—7",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "25"
+                        }
+                    ]
+                },
+                {
+                    "Up Tilt": [
+                        {
+                            "advantages": "-18",
+                            "notes": "--",
+                            "startup": "5",
+                            "shieldLag": "6",
+                            "percentBaseDamage": "5.5",
+                            "shieldStun": "6",
+                            "activeFrames": "5—11",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "29"
+                        }
+                    ]
+                },
+                {
+                    "Down Tilt": [
+                        {
+                            "advantages": "-15/-16",
+                            "notes": "--",
+                            "startup": "5",
+                            "shieldLag": "7/6",
+                            "percentBaseDamage": "7.0/5.0",
+                            "shieldStun": "7/6",
+                            "activeFrames": "5—7",
+                            "landingLag": "--",
+                            "hitboxMap": "Close/Far",
+                            "totalFrames": "27"
+                        }
+                    ]
+                },
+                {
+                    "Dash Attack": [
+                        {
+                            "advantages": "-17",
+                            "notes": "--",
+                            "startup": "6",
+                            "shieldLag": "9/8",
+                            "percentBaseDamage": "8.0/6.0",
+                            "shieldStun": "14/11",
+                            "activeFrames": "6—9(10—25)",
+                            "landingLag": "--",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "37"
+                        }
+                    ]
+                },
+                {
+                    "Forward Smash": [
+                        {
+                            "advantages": "-22/-20",
+                            "notes": "Charge hold is frame 5.",
+                            "startup": "15",
+                            "shieldLag": "11/10",
+                            "percentBaseDamage": "17.7/14.6",
+                            "shieldStun": "12/10",
+                            "activeFrames": "15—17",
+                            "landingLag": "--",
+                            "hitboxMap": "Far/Close",
+                            "totalFrames": "47"
+                        }
+                    ]
+                },
+                {
+                    "Up Smash": [
+                        {
+                            "advantages": "-20",
+                            "notes": "Head Invulnerability on frame 9-12. Charge hold is frame 6.",
+                            "startup": "9",
+                            "shieldLag": "10",
+                            "percentBaseDamage": "14.0",
+                            "shieldStun": "10",
+                            "activeFrames": "9—12",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "39"
+                        }
+                    ]
+                },
+                {
+                    "Down Smash": [
+                        {
+                            "advantages": "-31/-21",
+                            "notes": "Charge hold is frame 2.",
+                            "startup": "5/14",
+                            "shieldLag": "8/9",
+                            "percentBaseDamage": "10.0/12.0",
+                            "shieldStun": "7/8",
+                            "activeFrames": "5—6/14",
+                            "landingLag": "--",
+                            "hitboxMap": "First/Second",
+                            "totalFrames": "43"
+                        }
+                    ]
+                },
+                {
+                    "Neutral Air": [
+                        {
+                            "advantages": "-2/-3/-3/-3",
+                            "notes": "Auto cancels on frame 1-2 and frame 39 onward.",
+                            "startup": "3",
+                            "shieldLag": "7/6",
+                            "percentBaseDamage": "8.0/5.0",
+                            "shieldStun": "4/3",
+                            "activeFrames": "3—5(6—27)",
+                            "landingLag": "6",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "45"
+                        }
+                    ]
+                },
+                {
+                    "Forward Air": [
+                        {
+                            "advantages": "-12/-12/-12",
+                            "notes": "Auto cancels on frame 1-2 and frame 43 onward.",
+                            "startup": "16",
+                            "shieldLag": "9/10/9",
+                            "percentBaseDamage": "12.0/14.0/10.0",
+                            "shieldStun": "5/5/5",
+                            "activeFrames": "16/17—20/21",
+                            "landingLag": "17",
+                            "hitboxMap": "Early/Clean/Late",
+                            "totalFrames": "59"
+                        }
+                    ]
+                },
+                {
+                    "Back Air": [
+                        {
+                            "advantages": "-2/-3/-2/-3",
+                            "notes": "Auto cancels on frame 1-5 and frame 19 onward.",
+                            "startup": "6",
+                            "shieldLag": "8/7",
+                            "percentBaseDamage": "10.5/7.0",
+                            "shieldStun": "4/3",
+                            "activeFrames": "6—7(8—10)",
+                            "landingLag": "6",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "33"
+                        }
+                    ]
+                },
+                {
+                    "Up Air": [
+                        {
+                            "advantages": "-3",
+                            "notes": "Auto cancels on frame 17 onward.",
+                            "startup": "4",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "7.0",
+                            "shieldStun": "3",
+                            "activeFrames": "4—7",
+                            "landingLag": "6",
+                            "hitboxMap": "--",
+                            "totalFrames": "30"
+                        }
+                    ]
+                },
+                {
+                    "Down Air": [
+                        {
+                            "advantages": "-11",
+                            "notes": "Auto cancels on frame 1-4 and frame 33 onward.",
+                            "startup": "5/7/9/11/13/23",
+                            "shieldLag": "4/6/4",
+                            "percentBaseDamage": "1.3/5.5",
+                            "shieldStun": "2/3/3",
+                            "activeFrames": "5/7/9/11/13/23(1—2)",
+                            "landingLag": "15",
+                            "hitboxMap": "Multihit/Final/Landing",
+                            "totalFrames": "37"
+                        }
+                    ]
+                },
+                {
+                    "Neutral B (Fireball)": [
+                        {
+                            "advantages": "-23",
+                            "notes": "Fireball disappears on frame 88.",
+                            "startup": "17",
+                            "shieldLag": "6/5",
+                            "percentBaseDamage": "5.0/4.0",
+                            "shieldStun": "3/2",
+                            "activeFrames": "17—20(21—46/47—86)",
+                            "landingLag": "--",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "49"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Cape)": [
+                        {
+                            "advantages": "-16",
+                            "notes": "Reflects on frame 9-20.",
+                            "startup": "12",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "7.0",
+                            "shieldStun": "7",
+                            "activeFrames": "12—14",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "35"
+                        }
+                    ]
+                },
+                {
+                    "Up B (Super Jump Punch)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Invulnerable on frame 3-6. Hits 2-6 rehit rate of 2.",
+                            "startup": "3...",
+                            "shieldLag": "6/4/5",
+                            "percentBaseDamage": "5.0 / 0.6 / 3.0",
+                            "shieldStun": "6/2/4",
+                            "activeFrames": "3-6/7-16/17-18",
+                            "landingLag": "30",
+                            "hitboxMap": "First/multihit/Final",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Down B (F.L.U.D.D.)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Startup is 2 from a charging state. Entering charge state takes 19 frames and is shield cancellable on 20.",
+                            "startup": "2 (+19)",
+                            "shieldLag": "--",
+                            "percentBaseDamage": "--",
+                            "shieldStun": "--",
+                            "activeFrames": "21—**",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "48"
+                        }
+                    ]
+                },
+                {
+                    "Down B, Fully Charged (F.L.U.D.D.)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Takes 100 frames to reach full charge.",
+                            "startup": "21",
+                            "shieldLag": "--",
+                            "percentBaseDamage": "--",
+                            "shieldStun": "--",
+                            "activeFrames": "21—**",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "67"
+                        }
+                    ]
+                }
+            ],
+            "name": "Mario",
+            "charID": 1
+        },
+        {
+            "moves": [
+                {
+                    "Jab 1": [
+                        {
+                            "advantages": "-14",
+                            "notes": "Transitions to Jab 2 as early as frame 8.",
+                            "startup": "5",
+                            "percentBaseDamage": "4.0",
+                            "shieldLag": "8",
+                            "shieldStun": "5",
+                            "activeFrames": "5—6",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "24"
+                        }
+                    ]
+                },
+                {
+                    "Jab 2": [
+                        {
+                            "advantages": "-24",
+                            "notes": "--",
+                            "startup": "5",
+                            "percentBaseDamage": "6.0",
+                            "shieldLag": "11",
+                            "shieldStun": "6",
+                            "activeFrames": "5—6",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "34"
+                        }
+                    ]
+                },
+                {
+                    "Forward Tilt": [
+                        {
+                            "advantages": "-19/-18",
+                            "notes": "Arm intangibility on frame 6-9",
+                            "startup": "7",
+                            "percentBaseDamage": "8.0/9.0",
+                            "shieldLag": "7/7",
+                            "shieldStun": "8/9",
+                            "activeFrames": "7—9",
+                            "hitboxMap": "No angle/angled",
+                            "landingLag": "--",
+                            "totalFrames": "34"
+                        }
+                    ]
+                },
+                {
+                    "Up Tilt": [
+                        {
+                            "advantages": "-23",
+                            "notes": "Arm intangibility on frame 5-11",
+                            "startup": "5",
+                            "percentBaseDamage": "10.0",
+                            "shieldLag": "8",
+                            "shieldStun": "10",
+                            "activeFrames": "5—11",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "38"
+                        }
+                    ]
+                },
+                {
+                    "Down Tilt": [
+                        {
+                            "advantages": "-12",
+                            "notes": "Arm intangibility on frame 5-7",
+                            "startup": "6",
+                            "percentBaseDamage": "6.0",
+                            "shieldLag": "6",
+                            "shieldStun": "6",
+                            "activeFrames": "6—7",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "24"
+                        }
+                    ]
+                },
+                {
+                    "Dash Attack": [
+                        {
+                            "advantages": "-14",
+                            "notes": "--",
+                            "startup": "9",
+                            "percentBaseDamage": "12.0/9.0",
+                            "shieldLag": "11/9",
+                            "shieldStun": "11/9",
+                            "activeFrames": "9—12/13—24",
+                            "hitboxMap": "Early/Late",
+                            "landingLag": "--",
+                            "totalFrames": "34"
+                        }
+                    ]
+                },
+                {
+                    "Forward Smash": [
+                        {
+                            "advantages": "-18",
+                            "notes": "Arm and head intangibility on frame 20-26. Charge hold is frame 14. Cannot rebound.",
+                            "startup": "22",
+                            "percentBaseDamage": "22.0/21.0",
+                            "shieldLag": "16",
+                            "shieldStun": "14",
+                            "activeFrames": "22—23",
+                            "hitboxMap": "Far/Close",
+                            "landingLag": "--",
+                            "totalFrames": "54"
+                        }
+                    ]
+                },
+                {
+                    "Up Smash": [
+                        {
+                            "advantages": "-22",
+                            "notes": "Arm and head intangibility on frame 12-15. Charge hold is frame 6. Cannot rebound.",
+                            "startup": "14",
+                            "percentBaseDamage": "19.0",
+                            "shieldLag": "12",
+                            "shieldStun": "13",
+                            "activeFrames": "14—15",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "49"
+                        }
+                    ]
+                },
+                {
+                    "Down Smash": [
+                        {
+                            "advantages": "-33",
+                            "notes": "Arm intangibility on frame 11-14. Charge hold is frame 2. Cannot rebound.",
+                            "startup": "11",
+                            "percentBaseDamage": "17.0",
+                            "shieldLag": "11",
+                            "shieldStun": "11",
+                            "activeFrames": "11—12/13—14",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "55"
+                        }
+                    ]
+                },
+                {
+                    "Neutral Air": [
+                        {
+                            "advantages": "-6",
+                            "notes": "Autocancels on frame 1-9 and 27 onward",
+                            "startup": "10",
+                            "percentBaseDamage": "12.0/9.0",
+                            "shieldLag": "8/7",
+                            "shieldStun": "4/4",
+                            "activeFrames": "10—13/14—26",
+                            "hitboxMap": "Early/Late",
+                            "landingLag": "10",
+                            "totalFrames": "38"
+                        }
+                    ]
+                },
+                {
+                    "Forward Air": [
+                        {
+                            "advantages": "-11/-12",
+                            "notes": "Autocancels on frame 56 onward",
+                            "startup": "18",
+                            "percentBaseDamage": "16.0/15.0",
+                            "shieldLag": "10/15",
+                            "shieldStun": "6/5",
+                            "activeFrames": "18—20/21—23",
+                            "hitboxMap": "Early/Meteor",
+                            "landingLag": "17",
+                            "totalFrames": "55"
+                        }
+                    ]
+                },
+                {
+                    "Back Air": [
+                        {
+                            "advantages": "-6/-7",
+                            "notes": "Autocancels on frame 1-6 and 31 onward",
+                            "startup": "7",
+                            "percentBaseDamage": "13.0/8.0",
+                            "shieldLag": "9/7",
+                            "shieldStun": "5/4",
+                            "activeFrames": "7—8/9—16",
+                            "hitboxMap": "Early/Late",
+                            "landingLag": "11",
+                            "totalFrames": "31"
+                        }
+                    ]
+                },
+                {
+                    "Up Air": [
+                        {
+                            "advantages": "-10",
+                            "notes": "Head intangibility on frame 5-10. Autocancels on frame 1-5 and 26 onward",
+                            "startup": "6",
+                            "percentBaseDamage": "13.0",
+                            "shieldLag": "9",
+                            "shieldStun": "5",
+                            "activeFrames": "6—10",
+                            "hitboxMap": "--",
+                            "landingLag": "15",
+                            "totalFrames": "37"
+                        }
+                    ]
+                },
+                {
+                    "Down Air": [
+                        {
+                            "advantages": "-8",
+                            "notes": "Autocancels on frame 1-2 and 50 onward",
+                            "startup": "14",
+                            "percentBaseDamage": "16.0",
+                            "shieldLag": "10",
+                            "shieldStun": "6",
+                            "activeFrames": "14—16",
+                            "hitboxMap": "--",
+                            "landingLag": "14",
+                            "totalFrames": "54"
+                        }
+                    ]
+                },
+                {
+                    "Neutral B (Giant Punch)": [
+                        {
+                            "advantages": "-33 to -21",
+                            "notes": "Entering charge window takes 7 frames. 4 to cancel with shield. Arm intangibility on frame 4-20. Cannot rebound.",
+                            "startup": "19(+7)",
+                            "percentBaseDamage": "10.0—27.0",
+                            "shieldLag": "8—14",
+                            "shieldStun": "10—22",
+                            "activeFrames": "26—27 (19—20 after starting charge)",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "62"
+                        }
+                    ]
+                },
+                {
+                    "Giant Punch, Full Charge": [
+                        {
+                            "advantages": "-4",
+                            "notes": "Ground version has Super Armor frames 11-20. Air version has Super Armor frames 17-20. Takes 121 frames to reach full charge. Cannot rebound.",
+                            "startup": "19",
+                            "percentBaseDamage": "28.0",
+                            "shieldLag": "15",
+                            "shieldStun": "24",
+                            "activeFrames": "19—20",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "47"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Headbutt)": [
+                        {
+                            "advantages": "-32",
+                            "notes": "Super armor on frame 5-14 on the ground and in the air.",
+                            "startup": "20",
+                            "percentBaseDamage": "10.0",
+                            "shieldLag": "8",
+                            "shieldStun": "10",
+                            "activeFrames": "20—21",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "62"
+                        }
+                    ]
+                },
+                {
+                    "Up B (Spinning Kong)": [
+                        {
+                            "advantages": "-37",
+                            "notes": "Super armor on frame 5-17. Arm intangibility on frame 19-24",
+                            "startup": "19/25/32/40/49/55/62",
+                            "percentBaseDamage": "5.0/1.3/4.0",
+                            "shieldLag": "6/4/11",
+                            "shieldStun": "6/3/5",
+                            "activeFrames": "¯\\_(ツ)_/¯",
+                            "hitboxMap": "First/multi/Final",
+                            "landingLag": "--",
+                            "totalFrames": "104"
+                        }
+                    ]
+                },
+                {
+                    "Spinning Kong, Air": [
+                        {
+                            "advantages": "**",
+                            "notes": "Past frame 12, this move hits once every 1, 2, or 3 frames, seems inconsistent. Arm intangibility from frame 10-38",
+                            "startup": "4/12...",
+                            "percentBaseDamage": "5.0/1.0/2.0",
+                            "shieldLag": "6/4/4",
+                            "shieldStun": "6/2/3",
+                            "activeFrames": "¯\\_(ツ)_/¯",
+                            "hitboxMap": "First/Multi/Final",
+                            "landingLag": "38",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Down B (Hand Slap)": [
+                        {
+                            "advantages": "-15",
+                            "notes": "Each additional rep takes another 26 frames as you mash.",
+                            "startup": "12/23",
+                            "percentBaseDamage": "14.0",
+                            "shieldLag": "10",
+                            "shieldStun": "8",
+                            "activeFrames": "12—13/23—24...",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "46"
+                        }
+                    ]
+                },
+                {
+                    "Hand Slap, Air": [
+                        {
+                            "advantages": "-4",
+                            "notes": "Transcendent priority.",
+                            "startup": "19/28",
+                            "percentBaseDamage": "5.0/6.0",
+                            "shieldLag": "6/6",
+                            "shieldStun": "6/6",
+                            "activeFrames": "19—21/28—30",
+                            "hitboxMap": "First/Second",
+                            "landingLag": "10",
+                            "totalFrames": "49"
+                        }
+                    ]
+                }
+            ],
+            "name": "Donkey Kong",
+            "charID": 2
+        },
+        {
+            "moves": [
+                {
+                    "Jab 1": [
+                        {
+                            "advantages": "-12",
+                            "notes": "Transitions to Jab 2 as early as frame 12",
+                            "startup": "8",
+                            "shieldLag": "8",
+                            "percentBaseDamage": "3.0",
+                            "shieldStun": "4",
+                            "activeFrames": "8—9",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "24"
+                        }
+                    ]
+                },
+                {
+                    "Jab 2": [
+                        {
+                            "advantages": "-16",
+                            "notes": "Transitions to Jab 3 as early as frame 8.",
+                            "startup": "5",
+                            "shieldLag": "6",
+                            "percentBaseDamage": "3.0",
+                            "shieldStun": "4",
+                            "activeFrames": "5—6",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "25"
+                        }
+                    ]
+                },
+                {
+                    "Jab 3": [
+                        {
+                            "advantages": "-23",
+                            "notes": "--",
+                            "startup": "6",
+                            "shieldLag": "11",
+                            "percentBaseDamage": "4.0",
+                            "shieldStun": "5",
+                            "activeFrames": "6—7",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "34"
+                        }
+                    ]
+                },
+                {
+                    "Forward Tilt": [
+                        {
+                            "advantages": "-12",
+                            "notes": "Hits targets above him on frame 15",
+                            "startup": "15",
+                            "shieldLag": "9",
+                            "percentBaseDamage": "13.0",
+                            "shieldStun": "12",
+                            "activeFrames": "15(16—19)",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "39"
+                        }
+                    ]
+                },
+                {
+                    "Up Tilt": [
+                        {
+                            "advantages": "-17",
+                            "notes": "--",
+                            "startup": "8",
+                            "shieldLag": "8",
+                            "percentBaseDamage": "11.0",
+                            "shieldStun": "10",
+                            "activeFrames": "8—12",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "35"
+                        }
+                    ]
+                },
+                {
+                    "Down Tilt": [
+                        {
+                            "advantages": "-11",
+                            "notes": "--",
+                            "startup": "10",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "9.0",
+                            "shieldStun": "9",
+                            "activeFrames": "10—11",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "30"
+                        }
+                    ]
+                },
+                {
+                    "Dash Attack": [
+                        {
+                            "advantages": "-21",
+                            "notes": "--",
+                            "startup": "20",
+                            "shieldLag": "9",
+                            "percentBaseDamage": "14.0",
+                            "shieldStun": "15",
+                            "activeFrames": "20—23",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "56"
+                        }
+                    ]
+                },
+                {
+                    "Forward Smash 1": [
+                        {
+                            "advantages": "-27/-23/**",
+                            "notes": "Transitions to second swing as early as frame 22. Sword Sword Beam is active 17-48 when at minimum charge and 17-56 when at maximum charge (only when Link is at 0%). Charge hold frame is 9.",
+                            "startup": "17",
+                            "shieldLag": "7/10/6",
+                            "percentBaseDamage": "7.0/14.0/5.0",
+                            "shieldStun": "6/10/4",
+                            "activeFrames": "17—18",
+                            "landingLag": "--",
+                            "hitboxMap": "Close/Tipper/projectile",
+                            "totalFrames": "50"
+                        }
+                    ]
+                },
+                {
+                    "Forward Smash 2": [
+                        {
+                            "advantages": "-41",
+                            "notes": "--",
+                            "startup": "10",
+                            "shieldLag": "14",
+                            "percentBaseDamage": "13.0",
+                            "shieldStun": "9",
+                            "activeFrames": "10—11",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "60"
+                        }
+                    ]
+                },
+                {
+                    "Up Smash": [
+                        {
+                            "advantages": "-28",
+                            "notes": "Charge hold frame is 5.",
+                            "startup": "10/25/41",
+                            "shieldLag": "5/5/8",
+                            "percentBaseDamage": "4.0/3.0/10.0",
+                            "shieldStun": "4/3/8",
+                            "activeFrames": "10—13(14—15) / 25—28(29—30) / 41—45",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "77"
+                        }
+                    ]
+                },
+                {
+                    "Down Smash": [
+                        {
+                            "advantages": "-33/-24",
+                            "notes": "Charge hold frame is 4",
+                            "startup": "12/24",
+                            "shieldLag": "10/9",
+                            "percentBaseDamage": "16.0/12.0",
+                            "shieldStun": "11/8",
+                            "activeFrames": "12—13/24—25",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "56"
+                        }
+                    ]
+                },
+                {
+                    "Neutral Air": [
+                        {
+                            "advantages": "-2/-3",
+                            "notes": "Autocancels on frame 1-3 and 36 onward",
+                            "startup": "7",
+                            "shieldLag": "8/6",
+                            "percentBaseDamage": "11.0/6.0",
+                            "shieldStun": "4/3",
+                            "activeFrames": "7—8(9—31)",
+                            "landingLag": "6",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "38"
+                        }
+                    ]
+                },
+                {
+                    "Forward Air": [
+                        {
+                            "advantages": "-7/-7",
+                            "notes": "Autocancels on frame 53 onward",
+                            "startup": "16/24",
+                            "shieldLag": "7/10",
+                            "percentBaseDamage": "8.0/10.0",
+                            "shieldStun": "4/4",
+                            "activeFrames": "16—17/24—25",
+                            "landingLag": "11",
+                            "hitboxMap": "--",
+                            "totalFrames": "51"
+                        }
+                    ]
+                },
+                {
+                    "Back Air": [
+                        {
+                            "advantages": "-3/-3",
+                            "notes": "Autocancels on frame 29 onward",
+                            "startup": "6/15",
+                            "shieldLag": "6/7",
+                            "percentBaseDamage": "5.0/7.0",
+                            "shieldStun": "3/3",
+                            "activeFrames": "6—8/15—17",
+                            "landingLag": "6",
+                            "hitboxMap": "First/Second",
+                            "totalFrames": "30"
+                        }
+                    ]
+                },
+                {
+                    "Up Air": [
+                        {
+                            "advantages": "-9",
+                            "notes": "Autocancels on frame 1-10 and 43 onward",
+                            "startup": "11",
+                            "shieldLag": "12/11",
+                            "percentBaseDamage": "15.0/13.0",
+                            "shieldStun": "5/5",
+                            "activeFrames": "11—13(14—40)",
+                            "landingLag": "14",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "59"
+                        }
+                    ]
+                },
+                {
+                    "Down Air": [
+                        {
+                            "advantages": "**",
+                            "notes": "Autocancels on frame 1-9 and 65 onward. Can hit same target once again after 30 frames due to pogo effect.",
+                            "startup": "14",
+                            "shieldLag": "14/12",
+                            "percentBaseDamage": "18.0/15.0",
+                            "shieldStun": "6/5",
+                            "activeFrames": "14—19(20—64)",
+                            "landingLag": "19",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "79"
+                        }
+                    ]
+                },
+                {
+                    "Neutral B (Hero's Bow)": [
+                        {
+                            "advantages": "-21 to -15",
+                            "notes": "Reaches full charge on frame 52. Arrows travel for 46 frames after being fired. Arrows will stick into the ground for 3 seconds and can be picked up to either item-throw or fire two arrows. When firing two arrows at once, the second one generates three frames after the first.",
+                            "startup": "16-52",
+                            "shieldLag": "5—9",
+                            "percentBaseDamage": "4.0—12.0",
+                            "shieldStun": "2—4",
+                            "activeFrames": "16—61",
+                            "landingLag": "--",
+                            "hitboxMap": "Uncharged—Full Charge",
+                            "totalFrames": "44-80"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Boomerang)": [
+                        {
+                            "advantages": "-8/-6",
+                            "notes": "9 frame animation of catching boomerang if no other action is being performed.",
+                            "startup": "27",
+                            "shieldLag": "7/8",
+                            "percentBaseDamage": "8.0/9.6",
+                            "shieldStun": "3/4",
+                            "activeFrames": "27—35(36—63/64—155)",
+                            "landingLag": "--",
+                            "hitboxMap": "Clean/Late/Returning",
+                            "totalFrames": "45"
+                        }
+                    ]
+                },
+                {
+                    "Up B (Spin Attack)": [
+                        {
+                            "advantages": "-56",
+                            "notes": "Can charge attack for an additional 60 frames. Startup is 4 from charge state. 7f startup is only the front hit.",
+                            "startup": "7",
+                            "shieldLag": "14",
+                            "percentBaseDamage": "14.0",
+                            "shieldStun": "13",
+                            "activeFrames": "7—8(9—13/14—23/24—39)",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "76"
+                        }
+                    ]
+                },
+                {
+                    "Up B, Air (Spin Attack, Air)": [
+                        {
+                            "advantages": "--",
+                            "notes": "--",
+                            "startup": "8/16/22/31/47",
+                            "shieldLag": "5/4/11",
+                            "percentBaseDamage": "4.0/2.0/4.0",
+                            "shieldStun": "5/3/5",
+                            "activeFrames": "8—9/12—13/16—17/19—20/22—23/26—27/31—32/38—39/47—49",
+                            "landingLag": "30",
+                            "hitboxMap": "First/multi/Final",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Down B (Remote Bomb, Pull)": [
+                        {
+                            "advantages": "--",
+                            "notes": "--",
+                            "startup": "--",
+                            "shieldLag": "--",
+                            "percentBaseDamage": "--",
+                            "shieldStun": "--",
+                            "activeFrames": "--",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "39"
+                        }
+                    ]
+                },
+                {
+                    "Down B (Remote Bomb, Detonate)": [
+                        {
+                            "advantages": "-19",
+                            "notes": "Can self-damage",
+                            "startup": "12",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "7.0",
+                            "shieldStun": "3",
+                            "activeFrames": "12—13",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "39"
+                        }
+                    ]
+                }
+            ],
+            "name": "Link",
+            "charID": 3
+        },
+        {
+            "moves": [
+                {
+                    "Jab 1": [
+                        {
+                            "advantages": "-10",
+                            "notes": "Transitions to Jab 2 as early as frame 15.",
+                            "startup": "3",
+                            "percentBaseDamage": "3.0",
+                            "shieldLag": "5",
+                            "shieldStun": "4",
+                            "activeFrames": "3—4",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "17"
+                        }
+                    ]
+                },
+                {
+                    "Jab 2": [
+                        {
+                            "advantages": "-15",
+                            "notes": "--",
+                            "startup": "6",
+                            "percentBaseDamage": "8.0",
+                            "shieldLag": "7",
+                            "shieldStun": "8",
+                            "activeFrames": "6—9",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "29"
+                        }
+                    ]
+                },
+                {
+                    "Forward Tilt": [
+                        {
+                            "advantages": "-17/-16/-15",
+                            "notes": "Deals 1.0 more damage when angled.",
+                            "startup": "8",
+                            "percentBaseDamage": "8.0/9.0/10.0",
+                            "shieldLag": "7/7/8",
+                            "shieldStun": "8/9/10",
+                            "activeFrames": "8—10",
+                            "hitboxMap": "Close/Middle/Far",
+                            "landingLag": "--",
+                            "totalFrames": "33"
+                        }
+                    ]
+                },
+                {
+                    "Up Tilt": [
+                        {
+                            "advantages": "-12",
+                            "notes": "--",
+                            "startup": "15",
+                            "percentBaseDamage": "13.0",
+                            "shieldLag": "9",
+                            "shieldStun": "12",
+                            "activeFrames": "15—18",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "39"
+                        }
+                    ]
+                },
+                {
+                    "Down Tilt": [
+                        {
+                            "advantages": "-27",
+                            "notes": "--",
+                            "startup": "6",
+                            "percentBaseDamage": "12.0",
+                            "shieldLag": "9",
+                            "shieldStun": "11",
+                            "activeFrames": "6—8",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "44"
+                        }
+                    ]
+                },
+                {
+                    "Dash Attack": [
+                        {
+                            "advantages": "-26",
+                            "notes": "--",
+                            "startup": "8",
+                            "percentBaseDamage": "7.0/10.0/6.0",
+                            "shieldLag": "7/8/6",
+                            "shieldStun": "7/10/6",
+                            "activeFrames": "8—9(10—13/14—18)",
+                            "hitboxMap": "Early/Clean/Late",
+                            "landingLag": "--",
+                            "totalFrames": "41"
+                        }
+                    ]
+                },
+                {
+                    "Forward Smash": [
+                        {
+                            "advantages": "-30/-28",
+                            "notes": "Deals 1.0 more damage when angled up, 1.0 less when angled down. Charge hold frame is 3.",
+                            "startup": "10",
+                            "percentBaseDamage": "12.0/14.0",
+                            "shieldLag": "9/10",
+                            "shieldStun": "8/10",
+                            "activeFrames": "10—11",
+                            "hitboxMap": "Close/Far",
+                            "landingLag": "--",
+                            "totalFrames": "48"
+                        }
+                    ]
+                },
+                {
+                    "Up Smash": [
+                        {
+                            "advantages": "-24",
+                            "notes": "Charge hold frame is 6",
+                            "startup": "11/15/19/23/27",
+                            "percentBaseDamage": "3.0/6.0",
+                            "shieldLag": "5/6",
+                            "shieldStun": "3/5",
+                            "activeFrames": "11—12/15—16/19—20/23—24/27—28",
+                            "hitboxMap": "Multihit/Final",
+                            "landingLag": "--",
+                            "totalFrames": "56"
+                        }
+                    ]
+                },
+                {
+                    "Down Smash": [
+                        {
+                            "advantages": "-28/-19",
+                            "notes": "Charge hold frame is 3",
+                            "startup": "9/17",
+                            "percentBaseDamage": "10.0/12.0",
+                            "shieldLag": "8/9",
+                            "shieldStun": "7/8",
+                            "activeFrames": "9—10/17—18",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "44"
+                        }
+                    ]
+                },
+                {
+                    "Neutral Air": [
+                        {
+                            "advantages": "-5/-5",
+                            "notes": "Autocancels on frame 1-7 and 35 onward",
+                            "startup": "8/14",
+                            "percentBaseDamage": "10.0/9.0",
+                            "shieldLag": "8/7",
+                            "shieldStun": "4/4",
+                            "activeFrames": "8—11/14—15(16—22)",
+                            "hitboxMap": "--",
+                            "landingLag": "9",
+                            "totalFrames": "45"
+                        }
+                    ]
+                },
+                {
+                    "Forward Air": [
+                        {
+                            "advantages": "-12/-12/-11",
+                            "notes": "Autocancels on frame 47 onward",
+                            "startup": "6/12/18/24/30",
+                            "percentBaseDamage": "3.0/1.6/5.0",
+                            "shieldLag": "5/4/12",
+                            "shieldStun": "2/2/3",
+                            "activeFrames": "6—7/12—13/18—19/24—25/30—31",
+                            "hitboxMap": "First/multi/final",
+                            "landingLag": "14",
+                            "totalFrames": "59"
+                        }
+                    ]
+                },
+                {
+                    "Back Air": [
+                        {
+                            "advantages": "-9/-10",
+                            "notes": "Autocancels on frame 1-8 and 42 onward",
+                            "startup": "9",
+                            "percentBaseDamage": "14.0/9.0",
+                            "shieldLag": "11/7",
+                            "shieldStun": "5/4",
+                            "activeFrames": "9—10(11—14)",
+                            "hitboxMap": "Early/Late",
+                            "landingLag": "14",
+                            "totalFrames": "41"
+                        }
+                    ]
+                },
+                {
+                    "Up Air": [
+                        {
+                            "advantages": "-16/-16/-15",
+                            "notes": "Autocancels on frame 1-2 and 34 onward",
+                            "startup": "5/7/10/13/16",
+                            "percentBaseDamage": "3.0/1.2/4.0",
+                            "shieldLag": "5/3/10",
+                            "shieldStun": "2/2/3",
+                            "activeFrames": "5/7/10/13/16—17",
+                            "hitboxMap": "First/multi/final",
+                            "landingLag": "18",
+                            "totalFrames": "39"
+                        }
+                    ]
+                },
+                {
+                    "Down Air": [
+                        {
+                            "advantages": "-8/-7",
+                            "notes": "Autocancels on frame 1-3 and 34 onward",
+                            "startup": "17",
+                            "percentBaseDamage": "10.0/14.0",
+                            "shieldLag": "8/10",
+                            "shieldStun": "4/5",
+                            "activeFrames": "17—18/19—21/22—23",
+                            "hitboxMap": "Early/Meteor/Late",
+                            "landingLag": "12",
+                            "totalFrames": "48"
+                        }
+                    ]
+                },
+                {
+                    "Z Air": [
+                        {
+                            "advantages": "-4/-3",
+                            "notes": "--",
+                            "startup": "8/16",
+                            "percentBaseDamage": "2.5/4.0",
+                            "shieldLag": "7/8",
+                            "shieldStun": "4/5",
+                            "activeFrames": "8—15/16—19",
+                            "hitboxMap": "Early/Late",
+                            "landingLag": "8",
+                            "totalFrames": "59"
+                        }
+                    ]
+                },
+                {
+                    "Neutral B (Charge Shot)": [
+                        {
+                            "advantages": "-16 to +4",
+                            "notes": "Startup is 3 from charge state. Takes 13 frames to enter charge state.",
+                            "startup": "3(+13)",
+                            "percentBaseDamage": "5.0—26.1",
+                            "shieldLag": "9—24",
+                            "shieldStun": "3—8",
+                            "activeFrames": "3—62 (from release)",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "31"
+                        }
+                    ]
+                },
+                {
+                    "Charge Shot, Full Charge": [
+                        {
+                            "advantages": "-2",
+                            "notes": "Takes 125 frames to reach full charge",
+                            "startup": "16",
+                            "percentBaseDamage": "28.0",
+                            "shieldLag": "24",
+                            "shieldStun": "8",
+                            "activeFrames": "16—75",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "50"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Homing Missle)": [
+                        {
+                            "advantages": "-26",
+                            "notes": "Projectile lasts until frame 118. Total frames is 59 in the air for either missile type.",
+                            "startup": "18",
+                            "percentBaseDamage": "8.0",
+                            "shieldLag": "7",
+                            "shieldStun": "3",
+                            "activeFrames": "18—137",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "54/59"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Super Missle)": [
+                        {
+                            "advantages": "-24",
+                            "notes": "Projectile lasts until frame 87. Starts moving forward around frame 50, allowing for followups.",
+                            "startup": "21",
+                            "percentBaseDamage": "12.0",
+                            "shieldLag": "9",
+                            "shieldStun": "4",
+                            "activeFrames": "21—70",
+                            "hitboxMap": "--",
+                            "landingLag": "30",
+                            "totalFrames": "57/59"
+                        }
+                    ]
+                },
+                {
+                    "Up B (Screw Attack)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Invulnerable on frame 3-6. Rehit rate of 6 for active frames 7-24.",
+                            "startup": "4...",
+                            "percentBaseDamage": "3.0/1.0/2.0",
+                            "shieldLag": "5/4",
+                            "shieldStun": "4/2",
+                            "activeFrames": "4-6/7-11/12-14/15-24/25-26",
+                            "hitboxMap": "First/Multi/Final",
+                            "landingLag": "24",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Up B, Air (Screw Attack, Air)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Invulnerable on frame 3-4. Rehit rate of 2 for all hits except final.",
+                            "startup": "5...",
+                            "percentBaseDamage": "1.0",
+                            "shieldLag": "4",
+                            "shieldStun": "2",
+                            "activeFrames": "5-10/11-26/27-28",
+                            "hitboxMap": "--",
+                            "landingLag": "24",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Down B (Bomb)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Bomb is generated on frame 11. Explosion occurs one frame after touching a target. Bomb explodes automatically on frame 83. Total frames is 44 if the player is holding down.  And 48 in the air with no way to reduce it.",
+                            "startup": "33",
+                            "percentBaseDamage": "4.0/5.0",
+                            "shieldLag": "5",
+                            "shieldStun": "2",
+                            "activeFrames": "33—80/1—18",
+                            "hitboxMap": "--",
+                            "landingLag": "--",
+                            "totalFrames": "47/44/48"
+                        }
+                    ]
+                }
+            ],
+            "name": "Samus",
+            "charID": 4
+        },
+        {
+            "moves": [
+                {
+                    "Jab 1": [
+                        {
+                            "advantages": "-10",
+                            "notes": "Transitions to Jab 2 as early as frame 15.",
+                            "startup": "3",
+                            "shieldLag": "5",
+                            "percentBaseDamage": "3.0",
+                            "shieldStun": "4",
+                            "activeFrames": "3—4",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "17"
+                        }
+                    ]
+                },
+                {
+                    "Jab 2": [
+                        {
+                            "advantages": "-15",
+                            "notes": "--",
+                            "startup": "6",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "8.0",
+                            "shieldStun": "8",
+                            "activeFrames": "6—9",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "29"
+                        }
+                    ]
+                },
+                {
+                    "Forward Tilt": [
+                        {
+                            "advantages": "-17/-16/-15",
+                            "notes": "Deals 1.0 more damage when angled.",
+                            "startup": "8",
+                            "shieldLag": "7/7/8",
+                            "percentBaseDamage": "8.0/9.0/10.0",
+                            "shieldStun": "8/9/10",
+                            "activeFrames": "8—10",
+                            "landingLag": "--",
+                            "hitboxMap": "Close/Middle/Far",
+                            "totalFrames": "33"
+                        }
+                    ]
+                },
+                {
+                    "Up Tilt": [
+                        {
+                            "advantages": "-12",
+                            "notes": "--",
+                            "startup": "15",
+                            "shieldLag": "9",
+                            "percentBaseDamage": "13.0",
+                            "shieldStun": "12",
+                            "activeFrames": "15—18",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "39"
+                        }
+                    ]
+                },
+                {
+                    "Down Tilt": [
+                        {
+                            "advantages": "-27",
+                            "notes": "--",
+                            "startup": "6",
+                            "shieldLag": "9",
+                            "percentBaseDamage": "12.0",
+                            "shieldStun": "11",
+                            "activeFrames": "6—8",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "44"
+                        }
+                    ]
+                },
+                {
+                    "Dash Attack": [
+                        {
+                            "advantages": "-26",
+                            "notes": "--",
+                            "startup": "8",
+                            "shieldLag": "7/8/6",
+                            "percentBaseDamage": "7.0/10.0/6.0",
+                            "shieldStun": "7/10/6",
+                            "activeFrames": "8—9(10—13/14—18)",
+                            "landingLag": "--",
+                            "hitboxMap": "Early/Late/Later",
+                            "totalFrames": "41"
+                        }
+                    ]
+                },
+                {
+                    "Forward Smash": [
+                        {
+                            "advantages": "-30/-28",
+                            "notes": "Deals 1.0 more damage when angled up, 1.0 less when angled down. Charge hold frame is 3.",
+                            "startup": "10",
+                            "shieldLag": "9/10",
+                            "percentBaseDamage": "12.0/14.0",
+                            "shieldStun": "8/10",
+                            "activeFrames": "10—11",
+                            "landingLag": "--",
+                            "hitboxMap": "Close/Far",
+                            "totalFrames": "48"
+                        }
+                    ]
+                },
+                {
+                    "Up Smash": [
+                        {
+                            "advantages": "-24",
+                            "notes": "Charge hold frame is 6",
+                            "startup": "11/15/19/23/27",
+                            "shieldLag": "5/6",
+                            "percentBaseDamage": "3.0/6.0",
+                            "shieldStun": "3/5",
+                            "activeFrames": "11—12/15—16/19—20/23—24/27—28",
+                            "landingLag": "--",
+                            "hitboxMap": "Multihit/Final",
+                            "totalFrames": "56"
+                        }
+                    ]
+                },
+                {
+                    "Down Smash": [
+                        {
+                            "advantages": "-28/-19",
+                            "notes": "Charge hold frame is 3",
+                            "startup": "9/17",
+                            "shieldLag": "8/9",
+                            "percentBaseDamage": "10.0/12.0",
+                            "shieldStun": "7/8",
+                            "activeFrames": "9—10/17—18",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "44"
+                        }
+                    ]
+                },
+                {
+                    "Neutral Air": [
+                        {
+                            "advantages": "-5/-5",
+                            "notes": "Autocancels on frame 1-7 and 35 onward",
+                            "startup": "8/14",
+                            "shieldLag": "8/7",
+                            "percentBaseDamage": "10.0/9.0",
+                            "shieldStun": "4/4",
+                            "activeFrames": "8—11/14—15(16—22)",
+                            "landingLag": "9",
+                            "hitboxMap": "--",
+                            "totalFrames": "45"
+                        }
+                    ]
+                },
+                {
+                    "Forward Air": [
+                        {
+                            "advantages": "-12/-12/-11",
+                            "notes": "Autocancels on frame 47 onward",
+                            "startup": "6/12/18/24/30",
+                            "shieldLag": "5/4/12",
+                            "percentBaseDamage": "3.0/1.6/5.0",
+                            "shieldStun": "2/2/3",
+                            "activeFrames": "6—7/12—13/18—19/24—25/30—31",
+                            "landingLag": "14",
+                            "hitboxMap": "First/multi/final",
+                            "totalFrames": "59"
+                        }
+                    ]
+                },
+                {
+                    "Back Air": [
+                        {
+                            "advantages": "-9/-10",
+                            "notes": "Autocancels on frame 1-8 and 42 onward",
+                            "startup": "9",
+                            "shieldLag": "11/7",
+                            "percentBaseDamage": "14.0/9.0",
+                            "shieldStun": "5/4",
+                            "activeFrames": "9—10(11—14)",
+                            "landingLag": "14",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "41"
+                        }
+                    ]
+                },
+                {
+                    "Up Air": [
+                        {
+                            "advantages": "-16/-16/-15",
+                            "notes": "Autocancels on frame 1-2 and 34 onward",
+                            "startup": "5/7/10/13/16",
+                            "shieldLag": "5/3/10",
+                            "percentBaseDamage": "3.0/1.2/4.0",
+                            "shieldStun": "2/2/3",
+                            "activeFrames": "5/7/10/13/16—17",
+                            "landingLag": "18",
+                            "hitboxMap": "First/multi/final",
+                            "totalFrames": "39"
+                        }
+                    ]
+                },
+                {
+                    "Down Air": [
+                        {
+                            "advantages": "-8/-7",
+                            "notes": "Autocancels on frame 1-3 and 34 onward",
+                            "startup": "17",
+                            "shieldLag": "8/10",
+                            "percentBaseDamage": "10.0/14.0",
+                            "shieldStun": "4/5",
+                            "activeFrames": "17—18/19—21/22—23",
+                            "landingLag": "12",
+                            "hitboxMap": "Early/Meteor/Late",
+                            "totalFrames": "48"
+                        }
+                    ]
+                },
+                {
+                    "Z Air": [
+                        {
+                            "advantages": "-4/-3",
+                            "notes": "--",
+                            "startup": "8/16",
+                            "shieldLag": "7/8",
+                            "percentBaseDamage": "2.5/4.0",
+                            "shieldStun": "4/5",
+                            "activeFrames": "8—15/16—19",
+                            "landingLag": "8",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "59"
+                        }
+                    ]
+                },
+                {
+                    "Neutral B (Charge Shot)": [
+                        {
+                            "advantages": "-16 to +4",
+                            "notes": "Startup is 3 from charge state. Takes 13 frames to enter charge state.",
+                            "startup": "3(+13)",
+                            "shieldLag": "9—24",
+                            "percentBaseDamage": "5.0—26.1",
+                            "shieldStun": "3—8",
+                            "activeFrames": "3—62 (from release)",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "31"
+                        }
+                    ]
+                },
+                {
+                    "Charge Shot, Full Charge": [
+                        {
+                            "advantages": "-2",
+                            "notes": "Takes 125 frames to reach full charge",
+                            "startup": "16",
+                            "shieldLag": "24",
+                            "percentBaseDamage": "28.0",
+                            "shieldStun": "8",
+                            "activeFrames": "16—75",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "60"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Homing Missle)": [
+                        {
+                            "advantages": "-26",
+                            "notes": "Projectile lasts until frame 118. Total frames is 59 in the air for either missile type.",
+                            "startup": "18",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "8.0",
+                            "shieldStun": "3",
+                            "activeFrames": "18—137",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "54/59"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Super Missle)": [
+                        {
+                            "advantages": "-24",
+                            "notes": "Projectile lasts until frame 87. Starts moving forward around frame 50, allowing for followups.",
+                            "startup": "21",
+                            "shieldLag": "9",
+                            "percentBaseDamage": "12.0",
+                            "shieldStun": "4",
+                            "activeFrames": "21—70",
+                            "landingLag": "30",
+                            "hitboxMap": "--",
+                            "totalFrames": "57/59"
+                        }
+                    ]
+                },
+                {
+                    "Up B (Screw Attack)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Invulnerable on frame 3-6. Rehit rate of 6 for active frames 7-24.",
+                            "startup": "4...",
+                            "shieldLag": "5/4",
+                            "percentBaseDamage": "3.0/1.0/2.0",
+                            "shieldStun": "4/2",
+                            "activeFrames": "4-6/7-11/12-14/15-24/25-26",
+                            "landingLag": "24",
+                            "hitboxMap": "First/Multi/Final",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Up B, Air (Screw Attack, Air)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Invulnerable on frame 3-4. Rehit rate of 2 for all hits except final.",
+                            "startup": "5...",
+                            "shieldLag": "4",
+                            "percentBaseDamage": "1.0",
+                            "shieldStun": "2",
+                            "activeFrames": "5-10/11-26/27-28",
+                            "landingLag": "24",
+                            "hitboxMap": "--",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Down B (Bomb)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Bomb is generated on frame 11. Explosion occurs one frame after touching a target. Bomb explodes automatically on frame 83. Total frames is 44 if the player is holding down.  And 48 in the air with no way to reduce it.",
+                            "startup": "33",
+                            "shieldLag": "5",
+                            "percentBaseDamage": "4.0/5.0",
+                            "shieldStun": "2",
+                            "activeFrames": "33—82/1—18",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "47/44/48"
+                        }
+                    ]
+                }
+            ],
+            "name": "Dark Samus",
+            "charID": 5
+        },
+        {
+            "moves": [
+                {
+                    "Jab 1": [
+                        {
+                            "advantages": "-10",
+                            "notes": "Transitions to Jab 2 as early as frame 6",
+                            "startup": "3",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "3.0",
+                            "shieldStun": "4",
+                            "activeFrames": "3",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "17"
+                        }
+                    ]
+                },
+                {
+                    "Jab 2": [
+                        {
+                            "advantages": "-11",
+                            "notes": "--",
+                            "startup": "3",
+                            "shieldLag": "11",
+                            "percentBaseDamage": "4.0",
+                            "shieldStun": "5",
+                            "activeFrames": "3—4",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "19"
+                        }
+                    ]
+                },
+                {
+                    "Forward Tilt": [
+                        {
+                            "advantages": "-16",
+                            "notes": "--",
+                            "startup": "5",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "8.0",
+                            "shieldStun": "8",
+                            "activeFrames": "5—7",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "29"
+                        }
+                    ]
+                },
+                {
+                    "Up Tilt": [
+                        {
+                            "advantages": "-16",
+                            "notes": "--",
+                            "startup": "8",
+                            "shieldLag": "7",
+                            "percentBaseDamage": "7.0",
+                            "shieldStun": "7",
+                            "activeFrames": "8—15",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "31"
+                        }
+                    ]
+                },
+                {
+                    "Down Tilt": [
+                        {
+                            "advantages": "-9/-9/-10",
+                            "notes": "--",
+                            "startup": "8",
+                            "shieldLag": "6/6/5",
+                            "percentBaseDamage": "5.0/4.5/4.0",
+                            "shieldStun": "6/6/5",
+                            "activeFrames": "8—10",
+                            "landingLag": "--",
+                            "hitboxMap": "Close/Middle/Far",
+                            "totalFrames": "23"
+                        }
+                    ]
+                },
+                {
+                    "Dash Attack": [
+                        {
+                            "advantages": "-20",
+                            "notes": "--",
+                            "startup": "10",
+                            "shieldLag": "8/7",
+                            "percentBaseDamage": "11.0/8.0",
+                            "shieldStun": "10/8",
+                            "activeFrames": "10—12/13—20",
+                            "landingLag": "--",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "40"
+                        }
+                    ]
+                },
+                {
+                    "Forward Smash": [
+                        {
+                            "advantages": "-28",
+                            "notes": "Head intangibility on frame 12-16. Charge hold is frame 7",
+                            "startup": "14",
+                            "shieldLag": "10",
+                            "percentBaseDamage": "15.5",
+                            "shieldStun": "10",
+                            "activeFrames": "14—16",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "52"
+                        }
+                    ]
+                },
+                {
+                    "Up Smash": [
+                        {
+                            "advantages": "-24",
+                            "notes": "Leg intangibility on frame 11-13. Charge hold is frame 7",
+                            "startup": "11",
+                            "shieldLag": "10/9",
+                            "percentBaseDamage": "14.0/12.0",
+                            "shieldStun": "10/8",
+                            "activeFrames": "11—13/14—16",
+                            "landingLag": "--",
+                            "hitboxMap": "Early/Late",
+                            "totalFrames": "46"
+                        }
+                    ]
+                },
+                {
+                    "Down Smash": [
+                        {
+                            "advantages": "-34/-19",
+                            "notes": "Charge hold is frame 3",
+                            "startup": "7/22",
+                            "shieldLag": "9/8",
+                            "percentBaseDamage": "12.0/10.0",
+                            "shieldStun": "8/7",
+                            "activeFrames": "7—8/22—23",
+                            "landingLag": "--",
+                            "hitboxMap": "First/Second",
+                            "totalFrames": "49"
+                        }
+                    ]
+                },
+                {
+                    "Neutral Air": [
+                        {
+                            "advantages": "-3/-4/-4",
+                            "notes": "Autocancels on frame 1-2 and 38 onward",
+                            "startup": "3",
+                            "shieldLag": "8/7/6",
+                            "percentBaseDamage": "10.0/7.0/5.0",
+                            "shieldStun": "4/3/3",
+                            "activeFrames": "3—4(5—11)",
+                            "landingLag": "7",
+                            "hitboxMap": "Early/Late/Latest",
+                            "totalFrames": "44"
+                        }
+                    ]
+                },
+                {
+                    "Forward Air": [
+                        {
+                            "advantages": "-7/-7",
+                            "notes": "Autocancels on frame 1-3 and 40 onward",
+                            "startup": "16",
+                            "shieldLag": "10/10",
+                            "percentBaseDamage": "15.0/14.0",
+                            "shieldStun": "5/5",
+                            "activeFrames": "16—20",
+                            "landingLag": "12",
+                            "hitboxMap": "Close/meteor",
+                            "totalFrames": "43"
+                        }
+                    ]
+                },
+                {
+                    "Back Air": [
+                        {
+                            "advantages": "-9/-8",
+                            "notes": "Autocancels on frame 1-5 and 44 onward",
+                            "startup": "11/14/18",
+                            "shieldLag": "5/9",
+                            "percentBaseDamage": "3.5/5.5",
+                            "shieldStun": "2/3",
+                            "activeFrames": "11/14/18—19",
+                            "landingLag": "11",
+                            "hitboxMap": "Multihit/Final",
+                            "totalFrames": "55"
+                        }
+                    ]
+                },
+                {
+                    "Up Air": [
+                        {
+                            "advantages": "-3",
+                            "notes": "Autocancels on frame 1-4 and 31 onward",
+                            "startup": "5",
+                            "shieldLag": "9",
+                            "percentBaseDamage": "12.0",
+                            "shieldStun": "5",
+                            "activeFrames": "5—6",
+                            "landingLag": "8",
+                            "hitboxMap": "--",
+                            "totalFrames": "36"
+                        }
+                    ]
+                },
+                {
+                    "Down Air": [
+                        {
+                            "advantages": "-14",
+                            "notes": "Landing hit generates on frame 1. Autocancels on frame 50 onward",
+                            "startup": "16/18/20/22/24/26/ 28/30/32/34/36/38/41",
+                            "shieldLag": "5/4/7/4",
+                            "percentBaseDamage": "2.2/1.9/2.7/1.0",
+                            "shieldStun": "-/2/2/2",
+                            "activeFrames": "16/18/20/22/24/26/ 28/30/32/34/36/38/41",
+                            "landingLag": "17",
+                            "hitboxMap": "Early multi/Late multi/final/landing",
+                            "totalFrames": "56"
+                        }
+                    ]
+                },
+                {
+                    "Neutral B (Egg Lay)": [
+                        {
+                            "advantages": "--",
+                            "notes": "Egg appears on frame 33 when successful. Total frames when successful is 62. Total frames is 41 on whiff.",
+                            "startup": "19",
+                            "shieldLag": "--",
+                            "percentBaseDamage": "--",
+                            "shieldStun": "--",
+                            "activeFrames": "19—22",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "49/41"
+                        }
+                    ]
+                },
+                {
+                    "Side B (Egg Roll)": [
+                        {
+                            "advantages": "-29 to -27",
+                            "notes": "Takes 39 frames to emerge.",
+                            "startup": "32",
+                            "shieldLag": "8—9",
+                            "percentBaseDamage": "10.8—12.8",
+                            "shieldStun": "10—12",
+                            "activeFrames": "**",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "--"
+                        }
+                    ]
+                },
+                {
+                    "Up B (Egg Throw)": [
+                        {
+                            "advantages": "-30",
+                            "notes": "Eggs explode automatically on frame 60.",
+                            "startup": "16",
+                            "shieldLag": "6",
+                            "percentBaseDamage": "6.0",
+                            "shieldStun": "3",
+                            "activeFrames": "16—**",
+                            "landingLag": "--",
+                            "hitboxMap": "--",
+                            "totalFrames": "55"
+                        }
+                    ]
+                },
+                {
+                    "Down B (Yoshi Bomb, Yoshi Bomb Air)": [
+                        {
+                            "advantages": "-32, -32",
+                            "notes": "Total frames assumes level ground. Passes through platforms, voluntarily if you fall long enough. Stars appear on frame 4 of landing.",
+                            "startup": "7/27, 19",
+                            "shieldLag": "5/10/3, 9/3",
+                            "percentBaseDamage": "4.0/15.0/4.0, 12.0/4.0",
+                            "shieldStun": "5/14/0, 11/0",
+                            "activeFrames": "7/27/*, 19/*",
+                            "landingLag": "39, 39",
+                            "hitboxMap": "Rising/falling/star, falling/star",
+                            "totalFrames": "77, --"
+                        }
+                    ]
+                }
+            ],
+            "name": "Yoshi",
+            "charID": 6
+        }
+    ]
+}
