@@ -158,7 +158,7 @@ export function HomePage() {
         let sampleReq = new XMLHttpRequest();
         let responseJSON = "";
 
-        test = require("../defaultJSON/homepage.json");
+        test = require("../custom/homepage.json");
         /* test2 = (
             <textarea
                 className={classes.jsonArea}
