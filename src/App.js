@@ -35,7 +35,11 @@ const useStyles = makeStyles(theme => ({
 function App() {
   const classes = useStyles();
 
-  const [mode, setMode] = useState("light");
+  const [mode, setMode] = useState(
+    localStorage.getItem("smashAPITheme")
+      ? localStorage.getItem("smashAPITheme")
+      : "light"
+  );
 
   const theme = createMuiTheme({
     palette: {
@@ -48,8 +52,10 @@ function App() {
 
   const toggleMode = () => {
     if (mode === "light") {
+      localStorage.setItem("smashAPITheme", "dark");
       setMode("dark");
     } else {
+      localStorage.setItem("smashAPITheme", "light");
       setMode("light");
     }
   };
