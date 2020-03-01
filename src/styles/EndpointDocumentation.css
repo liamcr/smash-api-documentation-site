@@ -1,0 +1,40 @@
+.docs-header {
+  font-family: "Lato";
+  margin-bottom: 12px;
+  font-size: 24pt;
+  border-bottom: #d4d4d4 solid 2px;
+}
+
+.usage-path {
+  font-family: "Lato";
+  font-size: 20pt;
+  margin-bottom: 8px;
+}
+
+.usage-description {
+  font-family: "Open Sans";
+  margin-bottom: 16px;
+}
+
+.usage-header,
+.table-header {
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 12pt;
+  margin-bottom: 8px;
+}
+
+.usage-url {
+  font-family: monospace;
+  font-size: 12pt;
+  margin-bottom: 16px;
+  padding: 0 4px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+  .usage-url {
+    font-size: 8pt;
+  }
+}
