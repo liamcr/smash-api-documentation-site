@@ -1,4 +1,4 @@
-.endpoint-name {
+.docs-header {
   font-family: "Lato";
   margin-bottom: 12px;
   font-size: 24pt;
@@ -17,7 +17,7 @@
 }
 
 .usage-header,
-.usage-table-header {
+.table-header {
   font-family: "Lato";
   font-weight: bold;
   font-size: 12pt;
@@ -31,4 +31,10 @@
   padding: 0 4px;
   display: inline-block;
   border-radius: 2px;
+}
+
+@media only screen and (max-width: 500px) {
+  .usage-url {
+    font-size: 8pt;
+  }
 }

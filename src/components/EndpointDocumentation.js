@@ -34,7 +34,7 @@ export function EndpointDocumentation({ endpoint }) {
 
   return (
     <div className="endpoint-container">
-      <div className="endpoint-name">{endpoint.endpointName}</div>
+      <div className="docs-header">{endpoint.endpointName}</div>
       {endpoint.usages.map((usage, index) => (
         <div className="endpoint-usage" key={index}>
           <div className="usage-path">{usage.path}</div>
@@ -44,7 +44,7 @@ export function EndpointDocumentation({ endpoint }) {
             className={`usage-url ${classes.usageText}`}
           >{`GET ${usage.url}`}</div>
           {usage.queryParamKeys.length > 0 && (
-            <div className="usage-table-header">Query Parameters</div>
+            <div className="table-header">Query Parameters</div>
           )}
           {usage.queryParamKeys.length > 0 && (
             <TableContainer className={classes.table} component={Paper}>
@@ -70,9 +70,7 @@ export function EndpointDocumentation({ endpoint }) {
           <div className="usage-description">
             {usage.responseFormat.description}
           </div>
-          <div className="usage-table-header">
-            {usage.responseFormat.objectName}
-          </div>
+          <div className="table-header">{usage.responseFormat.objectName}</div>
           <TableContainer className={classes.table} component={Paper}>
             <Table>
               <TableHead>
