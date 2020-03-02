@@ -2,6 +2,7 @@ import React from "react";
 import { Endpoints } from "../components/Endpoints";
 import { Paper, makeStyles, useMediaQuery } from "@material-ui/core";
 import { Types } from "../components/Types";
+import { TableOfContents } from "../components/TableOfContents";
 
 const useStyles = makeStyles({
   paper: {
@@ -26,6 +27,7 @@ export function Documentation() {
       className={smallScreen ? classes.paperSmallScreen : classes.paper}
       elevation={1}
     >
+      <TableOfContents />
       <Endpoints />
       <Types />
     </Paper>
