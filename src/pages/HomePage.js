@@ -1,19 +1,15 @@
 import React from "react";
 import {
-    createMuiTheme,
-    ThemeProvider,
-    AppBar,
-    Toolbar,
-    Container,
-    Box,
     TextField,
     makeStyles,
     Button,
     CircularProgress,
     Card,
     CardContent,
-    Typography
+    Typography,
+    useMediaQuery
 } from "@material-ui/core";
+import { HomeHeader } from "../components/HomeHeader.js";
 
 const useStyles = makeStyles(theme => ({
     title: {
@@ -25,11 +21,12 @@ const useStyles = makeStyles(theme => ({
         padding: "10px",
         resize: "none",
         width: "100%",
-        color: "whitesmoke",
+        color: localStorage.getItem("smashAPITheme") === "light" ? "black" : "whitesmoke",
         backgroundColor: "transparent",
         border: "none",
         disabled: "true",
-        height: "500px"
+        height: "500px",
+        outline: "none"
     },
     container: {
         display: "flex",
@@ -39,7 +36,9 @@ const useStyles = makeStyles(theme => ({
         height: "500px"
     },
     query: {
-        display: "inline"
+        display: "block",
+        font: "inherit",
+        fontSize: "1rem"
     },
     queryCont: {
         display: "flex",
@@ -51,7 +50,7 @@ const useStyles = makeStyles(theme => ({
     },
     body: {
         width: "90%",
-        margin: "auto"
+        margin: "32px auto"
     },
     root: {
         minWidth: 275,
@@ -115,6 +114,12 @@ export function HomePage() {
         sampleReq.send();
     };
 
+    const keyDownHandler = e => {
+        if (e.keyCode === 13) {
+            sendQuery();
+        }
+    };
+
     /*
     let sampleReq = new XMLHttpRequest();
     let responseJSON = "";
@@ -146,7 +151,7 @@ export function HomePage() {
         );
         */
 
-        test2 = <textarea label="Result" className={classes.jsonArea} value={test}></textarea>;
+        test2 = <textarea id="jsonText" label="Result" className={classes.jsonArea} value={test}></textarea>;
     }
 
     let wait = "";
@@ -155,9 +160,6 @@ export function HomePage() {
     }
 
     if (init) {
-        let sampleReq = new XMLHttpRequest();
-        let responseJSON = "";
-
         test = require("../custom/homepage.json");
         /* test2 = (
             <textarea
@@ -174,18 +176,25 @@ export function HomePage() {
         );
         */
 
-        test2 = <textarea label="Result" className={classes.jsonArea} value={test}></textarea>;
+        test2 = <textarea id="jsonText" label="Result" className={classes.jsonArea} value={test}></textarea>;
 
         setResponse(JSON.stringify(test, undefined, 4));
         setInit(false);
     }
     return (
         <div className={classes.body}>
+            <HomeHeader />
             <div className={classes.queryCont}>
-                <div className={classes.query}>https://api.smashultimate.ca/</div>
-                <TextField id="queryText" label="sampleEndpoint" variant="standard" defaultValue="moves"></TextField>
-                <Button onClick={sendQuery} style={{ marginLeft: "10px" }} variant="contained">
-                    Confirm
+                <p className={classes.query}>https://api.smashultimate.ca/</p>
+                <TextField
+                    onKeyDown={keyDownHandler}
+                    id="queryText"
+                    label="sampleEndpoint"
+                    variant="standard"
+                    defaultValue="moves"
+                ></TextField>
+                <Button color="primary" onClick={sendQuery} style={{ marginLeft: "10px" }} variant="contained">
+                    Submit
                 </Button>
             </div>
             <div className={classes.jsonCont}>
