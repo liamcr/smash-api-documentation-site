@@ -1,70 +1,76 @@
 import React from "react";
 import {
-  TextField,
-  makeStyles,
-  Button,
-  CircularProgress,
-  Card,
-  CardContent
+    TextField,
+    makeStyles,
+    Button,
+    CircularProgress,
+    Card,
+    CardContent,
+    Typography,
+    useMediaQuery
 } from "@material-ui/core";
+import { HomeHeader } from "../components/HomeHeader.js";
 
 const useStyles = makeStyles(theme => ({
-  title: {
-    ...theme.typography.subtitle1,
-    fontSize: "24pt"
-  },
-  jsonArea: {
-    overflow: "scroll",
-    padding: "10px",
-    resize: "none",
-    width: "100%",
-    color: "whitesmoke",
-    backgroundColor: "transparent",
-    border: "none",
-    disabled: "true",
-    height: "500px"
-  },
-  container: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    margin: "auto",
-    height: "500px"
-  },
-  query: {
-    display: "inline"
-  },
-  queryCont: {
-    display: "flex",
-    alignItems: "baseline",
-    justifyContent: "center",
-    width: "fit-content",
-    margin: "auto",
-    padding: "10px"
-  },
-  body: {
-    width: "90%",
-    margin: "auto"
-  },
-  root: {
-    minWidth: 275,
-    minHeight: 275,
-    width: "100%",
-    maxHeight: 500,
-    height: 500,
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: "10px"
-  },
-  jsonCont: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    minHeight: 275,
-    height: "fit-content",
-    maxHeight: 500
-  }
+    title: {
+        ...theme.typography.subtitle1,
+        fontSize: "24pt"
+    },
+    jsonArea: {
+        overflow: "scroll",
+        padding: "10px",
+        resize: "none",
+        width: "100%",
+        color: localStorage.getItem("smashAPITheme") === "light" ? "black" : "whitesmoke",
+        backgroundColor: "transparent",
+        border: "none",
+        disabled: "true",
+        height: "500px",
+        outline: "none"
+    },
+    container: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        margin: "auto",
+        height: "500px"
+    },
+    query: {
+        display: "block",
+        font: "inherit",
+        fontSize: "1rem"
+    },
+    queryCont: {
+        display: "flex",
+        alignItems: "baseline",
+        justifyContent: "center",
+        width: "fit-content",
+        margin: "auto",
+        padding: "10px"
+    },
+    body: {
+        width: "90%",
+        margin: "32px auto"
+    },
+    root: {
+        minWidth: 275,
+        minHeight: 275,
+        width: "100%",
+        maxHeight: 500,
+        height: 500,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "10px"
+    },
+    jsonCont: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: 275,
+        height: "fit-content",
+        maxHeight: 500
+    }
 }));
 
 export function HomePage() {
@@ -108,108 +114,58 @@ export function HomePage() {
     sampleReq.send();
   };
 
-  /*
-    let sampleReq = new XMLHttpRequest();
-    let responseJSON = "";
-
-    sampleReq.open("GET", "https://api.smashultimate.ca/moves", true);
-    sampleReq.onload = function() {
-        responseJSON = JSON.parse(this.response);
-        responseJSON = JSON.stringify(responseJSON, undefined, 4);
-        setResponse(responseJSON);
+    const keyDownHandler = e => {
+        if (e.keyCode === 13) {
+            sendQuery();
+        }
     };
-    sampleReq.send();
-*/
-  let test = "";
-  let test2 = "";
-  if (response) {
-    test = response;
-    /*test2 = (
-            <textarea
-                className={classes.jsonArea}
-                style={{ disabled: "true" }}
-                name=""
-                id="myTextarea"
-                cols="30"
-                rows="10"
-                value={test}
-                readOnly
-                disabled={true}
-            ></textarea>
-        );
-        */
 
-    test2 = (
-      <textarea
-        label="Result"
-        className={classes.jsonArea}
-        value={test}
-      ></textarea>
-    );
-  }
+    let test = "";
+    let test2 = "";
+    if (response) {
+        test = response;
 
+        test2 = <textarea id="jsonText" label="Result" className={classes.jsonArea} value={test}></textarea>;
+    }
+  
   let wait = "";
   if (waiting) {
     wait = <CircularProgress />;
   }
 
-  if (init) {
-    let sampleReq = new XMLHttpRequest();
-    let responseJSON = "";
+    if (init) {
+        test = require("../custom/homepage.json");
 
-    test = require("../custom/homepage.json");
-    /* test2 = (
-            <textarea
-                className={classes.jsonArea}
-                style={{ disabled: "true" }}
-                name=""
-                id="myTextarea"
-                cols="30"
-                rows="10"
-                value={test}
-                readOnly
-                disabled={true}
-            ></textarea>    
-        );
-        */
+        test2 = <textarea id="jsonText" label="Result" className={classes.jsonArea} value={test}></textarea>;
 
-    test2 = (
-      <textarea
-        label="Result"
-        className={classes.jsonArea}
-        value={test}
-      ></textarea>
+        setResponse(JSON.stringify(test, undefined, 4));
+        setInit(false);
+    }
+    return (
+        <div className={classes.body}>
+            <HomeHeader />
+            <div className={classes.queryCont}>
+                <p className={classes.query}>https://api.smashultimate.ca/</p>
+                <TextField
+                    onKeyDown={keyDownHandler}
+                    id="queryText"
+                    label="sampleEndpoint"
+                    variant="standard"
+                    defaultValue="moves"
+                ></TextField>
+                <Button color="primary" onClick={sendQuery} style={{ marginLeft: "10px" }} variant="contained">
+                    Submit
+                </Button>
+            </div>
+            <div className={classes.jsonCont}>
+                <Card className={classes.root}>
+                    <CardContent className={classes.root}>
+                        {test2}
+                        {wait}
+                    </CardContent>
+                </Card>
+            </div>
+        </div>
+
     );
-
-    setResponse(JSON.stringify(test, undefined, 4));
-    setInit(false);
-  }
-  return (
-    <div className={classes.body}>
-      <div className={classes.queryCont}>
-        <div className={classes.query}>https://api.smashultimate.ca/</div>
-        <TextField
-          id="queryText"
-          label="sampleEndpoint"
-          variant="standard"
-          defaultValue="moves"
-        ></TextField>
-        <Button
-          onClick={sendQuery}
-          style={{ marginLeft: "10px" }}
-          variant="contained"
-        >
-          Confirm
-        </Button>
-      </div>
-      <div className={classes.jsonCont}>
-        <Card className={classes.root}>
-          <CardContent className={classes.root}>
-            {test2}
-            {wait}
-          </CardContent>
-        </Card>
-      </div>
-    </div>
-  );
 }
