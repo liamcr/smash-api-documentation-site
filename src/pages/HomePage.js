@@ -74,45 +74,45 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export function HomePage() {
-    const classes = useStyles();
+  const classes = useStyles();
 
-    const [response, setResponse] = React.useState(false);
-    const [waiting, setWaiting] = React.useState(false);
-    const [init, setInit] = React.useState(true);
+  const [response, setResponse] = React.useState(false);
+  const [waiting, setWaiting] = React.useState(false);
+  const [init, setInit] = React.useState(true);
 
-    const sendQuery = () => {
-        let query = document.getElementById("queryText").value;
-        if (query.length === 0) {
-            return;
-        }
-        let sampleReq = new XMLHttpRequest();
-        let responseJSON = "";
-        let baseUrl = "https://api.smashultimate.ca/";
-        let url = baseUrl + query;
+  const sendQuery = () => {
+    let query = document.getElementById("queryText").value;
+    if (query.length === 0) {
+      return;
+    }
+    let sampleReq = new XMLHttpRequest();
+    let responseJSON = "";
+    let baseUrl = "https://api.smashultimate.ca/";
+    let url = baseUrl + query;
 
-        sampleReq.open("GET", url, true);
-        sampleReq.onload = function() {
-            responseJSON = JSON.parse(this.response);
-            responseJSON = JSON.stringify(responseJSON, undefined, 4);
-            setResponse(responseJSON);
-            setWaiting(false);
-        };
-        sampleReq.onreadystatechange = () => {
-            if (sampleReq.readyState === 4) {
-                //if complete
-                if (sampleReq.status === 200) {
-                    //check if "OK" (200)
-                    //success
-                } else {
-                    setWaiting(false);
-                    setResponse("404 page not found");
-                }
-            }
-        };
-        setWaiting(true);
-        setResponse(false);
-        sampleReq.send();
+    sampleReq.open("GET", url, true);
+    sampleReq.onload = function() {
+      responseJSON = JSON.parse(this.response);
+      responseJSON = JSON.stringify(responseJSON, undefined, 4);
+      setResponse(responseJSON);
+      setWaiting(false);
     };
+    sampleReq.onreadystatechange = () => {
+      if (sampleReq.readyState === 4) {
+        //if complete
+        if (sampleReq.status === 200) {
+          //check if "OK" (200)
+          //success
+        } else {
+          setWaiting(false);
+          setResponse("404 page not found");
+        }
+      }
+    };
+    setWaiting(true);
+    setResponse(false);
+    sampleReq.send();
+  };
 
     const keyDownHandler = e => {
         if (e.keyCode === 13) {
@@ -127,11 +127,11 @@ export function HomePage() {
 
         test2 = <textarea id="jsonText" label="Result" className={classes.jsonArea} value={test}></textarea>;
     }
-
-    let wait = "";
-    if (waiting) {
-        wait = <CircularProgress />;
-    }
+  
+  let wait = "";
+  if (waiting) {
+    wait = <CircularProgress />;
+  }
 
     if (init) {
         test = require("../custom/homepage.json");
@@ -166,5 +166,6 @@ export function HomePage() {
                 </Card>
             </div>
         </div>
+
     );
 }
