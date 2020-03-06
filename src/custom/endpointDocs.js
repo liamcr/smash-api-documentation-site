@@ -46,7 +46,7 @@ export const endpointDocs = [
       },
       {
         path: "/characters?ids={ids}",
-        url: "https://api.smashultimate.ca/characters?ids",
+        url: "https://api.smashultimate.ca/characters?ids={ids}",
         description:
           "When passed a comma-separated list of ids, returns an array of the corresponding characters.",
         queryParamKeys: [
