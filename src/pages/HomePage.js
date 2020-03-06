@@ -120,36 +120,10 @@ export function HomePage() {
         }
     };
 
-    /*
-    let sampleReq = new XMLHttpRequest();
-    let responseJSON = "";
-
-    sampleReq.open("GET", "https://api.smashultimate.ca/moves", true);
-    sampleReq.onload = function() {
-        responseJSON = JSON.parse(this.response);
-        responseJSON = JSON.stringify(responseJSON, undefined, 4);
-        setResponse(responseJSON);
-    };
-    sampleReq.send();
-*/
     let test = "";
     let test2 = "";
     if (response) {
         test = response;
-        /*test2 = (
-            <textarea
-                className={classes.jsonArea}
-                style={{ disabled: "true" }}
-                name=""
-                id="myTextarea"
-                cols="30"
-                rows="10"
-                value={test}
-                readOnly
-                disabled={true}
-            ></textarea>
-        );
-        */
 
         test2 = <textarea id="jsonText" label="Result" className={classes.jsonArea} value={test}></textarea>;
     }
@@ -161,20 +135,6 @@ export function HomePage() {
 
     if (init) {
         test = require("../custom/homepage.json");
-        /* test2 = (
-            <textarea
-                className={classes.jsonArea}
-                style={{ disabled: "true" }}
-                name=""
-                id="myTextarea"
-                cols="30"
-                rows="10"
-                value={test}
-                readOnly
-                disabled={true}
-            ></textarea>    
-        );
-        */
 
         test2 = <textarea id="jsonText" label="Result" className={classes.jsonArea} value={test}></textarea>;
 
