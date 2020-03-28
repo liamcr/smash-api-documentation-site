@@ -5,9 +5,7 @@ import {
   Button,
   CircularProgress,
   Card,
-  CardContent,
-  Typography,
-  useMediaQuery
+  CardContent
 } from "@material-ui/core";
 import { HomeHeader } from "../components/HomeHeader.js";
 
@@ -155,7 +153,7 @@ export function HomePage() {
       ></textarea>
     );
 
-    setResponse(JSON.stringify(test, undefined, 4));
+    setResponse(JSON.stringify(test, undefined, 2));
     setInit(false);
   }
   return (
