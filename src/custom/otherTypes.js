@@ -135,5 +135,106 @@ export const otherTypes = [
         description: "Coded height of a character's air jump"
       }
     ]
+  },
+  {
+    name: "Assist Trophy",
+    id: "assist-trophy",
+    keys: [
+      {
+        name: "assistTrophy",
+        type: "String",
+        description: "English display name of the assist trophy"
+      },
+      {
+        name: "description",
+        type: "String",
+        description: "Description of what the assist trophy does"
+      },
+      {
+        name: "universe",
+        type: "String",
+        description: "The video game series the assist trophy is from"
+      }
+    ]
+  },
+  {
+    name: "Food",
+    id: "food",
+    keys: [
+      {
+        name: "food",
+        type: "String",
+        description: "English display name of the food"
+      },
+      {
+        name: "healingPower",
+        type: "Number",
+        description: "The number of percentage points the food replenishes"
+      }
+    ]
+  },
+  {
+    name: "Move",
+    id: "move",
+    keys: [
+      {
+        name: "activeFrames",
+        type: "String",
+        description:
+          "The range of frames that a user can be hit by the move (For example: '6--7')"
+      },
+      {
+        name: "advantages",
+        type: "String",
+        description:
+          "The +/- refers to who can act first after an attack hits a shield. Negative meaning the defender can act before the attacker. "
+      },
+      {
+        name: "hitboxMap",
+        type: "String",
+        description:
+          "If there is more than one hitbox on the move, it will be specified here (For example, 'Early/Late')"
+      },
+      {
+        name: "landingLag",
+        type: "String",
+        description:
+          "The lag incurred when an airborne character lands on the ground"
+      },
+      {
+        name: "notes",
+        type: "String",
+        description: "Miscellaneous notes about the move"
+      },
+      {
+        name: "percentBaseDamage",
+        type: "String",
+        description:
+          "The amount of damage in percent done to the opponent when the move connects"
+      },
+      {
+        name: "shieldLag",
+        type: "String",
+        description:
+          "The amount of frames both characters (attacker and opponent) are frozen when move hits opponents shield"
+      },
+      {
+        name: "shieldStun",
+        type: "String",
+        description:
+          "The amount of frames the opponent is stunned when the move hits their shield"
+      },
+      {
+        name: "startup",
+        type: "String",
+        description:
+          "Number of frames between when the user inputs the move, and when the move's hitbox becomes active"
+      },
+      {
+        name: "totalFrames",
+        type: "String",
+        description: "Total number of frames for the move"
+      }
+    ]
   }
 ];
