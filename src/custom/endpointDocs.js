@@ -182,5 +182,207 @@ export const endpointDocs = [
         }
       }
     ]
+  },
+  {
+    endpointName: "Items",
+    id: "items-endpoint",
+    usages: [
+      {
+        path: "/items",
+        url: "https://api.smashultimate.ca/items",
+        description:
+          "When invoked without the 'ids' parameter, will return an array with every item.",
+        queryParamKeys: [],
+        responseFormat: {
+          description: "An array of item objects",
+          objectName: "Item Object",
+          responseObjectKeys: [
+            {
+              key: "id",
+              valueType: "Number",
+              valueDescription: "The unique id of the item"
+            },
+            {
+              key: "description",
+              valueType: "String",
+              valueDescription: "A short description about what the item does"
+            },
+            {
+              key: "itemName",
+              valueType: "String",
+              valueDescription: "The english name of the item"
+            },
+            {
+              key: "duration",
+              valueType: "Number",
+              valueDescription:
+                "(OPTIONAL) The amount of time in seconds the item's effects last"
+            },
+            {
+              key: "itemClass",
+              valueType: "String",
+              valueDescription:
+                "(OPTIONAL) The type of item (For example, 'Defending', 'Shooting', etc.)"
+            },
+            {
+              key: "universe",
+              valueType: "String",
+              valueDescription:
+                "(OPTIONAL) The video game series the item is from"
+            },
+            {
+              key: "assistTrophy",
+              valueType: "Assist Trophy Object",
+              valueDescription:
+                "(OPTIONAL) An array of assist trophy objects. Contains information on all assist trophies",
+              linkTo: "assist-trophy"
+            },
+            {
+              key: "foodItems",
+              valueType: "Food Object",
+              valueDescription:
+                "(OPTIONAL) An array of food objects. Contains information on all food items",
+              linkTo: "food"
+            }
+          ]
+        }
+      },
+      {
+        path: "/items?ids={ids}",
+        url: "https://api.smashultimate.ca/items?ids={ids}",
+        description:
+          "When passed a comma-separated list of ids, returns an array of the corresponding items.",
+        queryParamKeys: [
+          {
+            parameter: "ids",
+            value: "A comma-separated list of item ids"
+          }
+        ],
+        responseFormat: {
+          description: "An array of item objects",
+          objectName: "Item Object",
+          responseObjectKeys: [
+            {
+              key: "id",
+              valueType: "Number",
+              valueDescription: "The unique id of the item"
+            },
+            {
+              key: "description",
+              valueType: "String",
+              valueDescription: "A short description about what the item does"
+            },
+            {
+              key: "itemName",
+              valueType: "String",
+              valueDescription: "The english name of the item"
+            },
+            {
+              key: "duration",
+              valueType: "Number",
+              valueDescription:
+                "(OPTIONAL) The amount of time in seconds the item's effects last"
+            },
+            {
+              key: "itemClass",
+              valueType: "String",
+              valueDescription:
+                "(OPTIONAL) The type of item (For example, 'Defending', 'Shooting', etc.)"
+            },
+            {
+              key: "universe",
+              valueType: "String",
+              valueDescription:
+                "(OPTIONAL) The video game series the item is from"
+            },
+            {
+              key: "assistTrophy",
+              valueType: "Assist Trophy Object",
+              valueDescription:
+                "(OPTIONAL) An array of assist trophy objects. Contains information on all assist trophies",
+              linkTo: "assist-trophy"
+            },
+            {
+              key: "foodItems",
+              valueType: "Food Object",
+              valueDescription:
+                "(OPTIONAL) An array of food objects. Contains information on all food items",
+              linkTo: "food"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    endpointName: "Moves",
+    id: "moves-endpoint",
+    usages: [
+      {
+        path: "/moves",
+        url: "https://api.smashultimate.ca/moves",
+        description:
+          "When invoked without the 'ids' parameter, will return an array with every character, along with their moves.",
+        queryParamKeys: [],
+        responseFormat: {
+          description: "An array of character move objects",
+          objectName: "Character Move Object",
+          responseObjectKeys: [
+            {
+              key: "charID",
+              valueType: "Number",
+              valueDescription: "The unique id of the character"
+            },
+            {
+              key: "name",
+              valueType: "String",
+              valueDescription: "The english display name of the character"
+            },
+            {
+              key: "moves",
+              valueType: "Move Object",
+              valueDescription:
+                "An array of maps, each map contains an array of move objects. The array of move objects is accessible by accessing the key of the map denoted by the move name (for example, 'Jab 1' or 'Neutral Air')",
+              linkTo: "move"
+            }
+          ]
+        }
+      },
+      {
+        path: "/moves?ids={ids}",
+        url: "https://api.smashultimate.ca/moves?ids={ids}",
+        description:
+          "When passed a comma-separated list of ids, returns an array of the corresponding characters, along with their moves.",
+        queryParamKeys: [
+          {
+            parameter: "ids",
+            value: "A comma-separated list of character ids"
+          }
+        ],
+        responseFormat: {
+          description: "An array of character move objects",
+          objectName: "Character Move Object",
+          responseObjectKeys: [
+            {
+              key: "charID",
+              valueType: "Number",
+              valueDescription: "The unique id of the character"
+            },
+            {
+              key: "name",
+              valueType: "String",
+              valueDescription: "The english display name of the character"
+            },
+            {
+              key: "moves",
+              valueType: "Move Object",
+              valueDescription:
+                "An array of maps, each map contains an array of move objects. The array of move objects is accessible by accessing the key of the map denoted by the move name (for example, 'Jab 1' or 'Neutral Air')",
+              linkTo: "move"
+            }
+          ]
+        }
+      }
+    ]
   }
 ];
