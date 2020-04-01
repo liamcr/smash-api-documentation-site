@@ -166,7 +166,7 @@ export function HomePage() {
           id="queryText"
           label="sampleEndpoint"
           variant="standard"
-          defaultValue="moves?ids=1"
+          defaultValue="characters?ids=1"
         ></TextField>
         <Button
           color="primary"

@@ -2,330 +2,159 @@
   "statusCode": 200,
   "body": [
     {
-      "moves": [
-        {
-          "Jab 1": [
-            {
-              "advantages": "-14",
-              "notes": "Transitions to Jab 2 as early as frame 5",
-              "startup": "2",
-              "shieldLag": "8",
-              "percentBaseDamage": "2.2",
-              "shieldStun": "3",
-              "activeFrames": "2—3",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "19"
-            }
-          ]
-        },
-        {
-          "Jab 2": [
-            {
-              "advantages": "-16",
-              "notes": "Transitions to Jab 3 as early as frame 6",
-              "startup": "2",
-              "shieldLag": "5",
-              "percentBaseDamage": "1.7",
-              "shieldStun": "3",
-              "activeFrames": "2—3",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "21"
-            }
-          ]
-        },
-        {
-          "Jab 3": [
-            {
-              "advantages": "-29",
-              "notes": "--",
-              "startup": "3",
-              "shieldLag": "11",
-              "percentBaseDamage": "4.0",
-              "shieldStun": "5",
-              "activeFrames": "3—4",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "33"
-            }
-          ]
-        },
-        {
-          "Forward Tilt": [
-            {
-              "advantages": "-13",
-              "notes": "--",
-              "startup": "5",
-              "shieldLag": "7",
-              "percentBaseDamage": "7.0",
-              "shieldStun": "7",
-              "activeFrames": "5—7",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "25"
-            }
-          ]
-        },
-        {
-          "Up Tilt": [
-            {
-              "advantages": "-18",
-              "notes": "--",
-              "startup": "5",
-              "shieldLag": "6",
-              "percentBaseDamage": "5.5",
-              "shieldStun": "6",
-              "activeFrames": "5—11",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "29"
-            }
-          ]
-        },
-        {
-          "Down Tilt": [
-            {
-              "advantages": "-15/-16",
-              "notes": "--",
-              "startup": "5",
-              "shieldLag": "7/6",
-              "percentBaseDamage": "7.0/5.0",
-              "shieldStun": "7/6",
-              "activeFrames": "5—7",
-              "landingLag": "--",
-              "hitboxMap": "Close/Far",
-              "totalFrames": "27"
-            }
-          ]
-        },
-        {
-          "Dash Attack": [
-            {
-              "advantages": "-17",
-              "notes": "--",
-              "startup": "6",
-              "shieldLag": "9/8",
-              "percentBaseDamage": "8.0/6.0",
-              "shieldStun": "14/11",
-              "activeFrames": "6—9(10—25)",
-              "landingLag": "--",
-              "hitboxMap": "Early/Late",
-              "totalFrames": "37"
-            }
-          ]
-        },
-        {
-          "Forward Smash": [
-            {
-              "advantages": "-22/-20",
-              "notes": "Charge hold is frame 5.",
-              "startup": "15",
-              "shieldLag": "11/10",
-              "percentBaseDamage": "17.7/14.6",
-              "shieldStun": "12/10",
-              "activeFrames": "15—17",
-              "landingLag": "--",
-              "hitboxMap": "Far/Close",
-              "totalFrames": "47"
-            }
-          ]
-        },
-        {
-          "Up Smash": [
-            {
-              "advantages": "-20",
-              "notes": "Head Invulnerability on frame 9-12. Charge hold is frame 6.",
-              "startup": "9",
-              "shieldLag": "10",
-              "percentBaseDamage": "14.0",
-              "shieldStun": "10",
-              "activeFrames": "9—12",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "39"
-            }
-          ]
-        },
-        {
-          "Down Smash": [
-            {
-              "advantages": "-31/-21",
-              "notes": "Charge hold is frame 2.",
-              "startup": "5/14",
-              "shieldLag": "8/9",
-              "percentBaseDamage": "10.0/12.0",
-              "shieldStun": "7/8",
-              "activeFrames": "5—6/14",
-              "landingLag": "--",
-              "hitboxMap": "First/Second",
-              "totalFrames": "43"
-            }
-          ]
-        },
-        {
-          "Neutral Air": [
-            {
-              "advantages": "-2/-3/-3/-3",
-              "notes": "Auto cancels on frame 1-2 and frame 39 onward.",
-              "startup": "3",
-              "shieldLag": "7/6",
-              "percentBaseDamage": "8.0/5.0",
-              "shieldStun": "4/3",
-              "activeFrames": "3—5(6—27)",
-              "landingLag": "6",
-              "hitboxMap": "Early/Late",
-              "totalFrames": "45"
-            }
-          ]
-        },
-        {
-          "Forward Air": [
-            {
-              "advantages": "-12/-12/-12",
-              "notes": "Auto cancels on frame 1-2 and frame 43 onward.",
-              "startup": "16",
-              "shieldLag": "9/10/9",
-              "percentBaseDamage": "12.0/14.0/10.0",
-              "shieldStun": "5/5/5",
-              "activeFrames": "16/17—20/21",
-              "landingLag": "17",
-              "hitboxMap": "Early/Clean/Late",
-              "totalFrames": "59"
-            }
-          ]
-        },
-        {
-          "Back Air": [
-            {
-              "advantages": "-2/-3/-2/-3",
-              "notes": "Auto cancels on frame 1-5 and frame 19 onward.",
-              "startup": "6",
-              "shieldLag": "8/7",
-              "percentBaseDamage": "10.5/7.0",
-              "shieldStun": "4/3",
-              "activeFrames": "6—7(8—10)",
-              "landingLag": "6",
-              "hitboxMap": "Early/Late",
-              "totalFrames": "33"
-            }
-          ]
-        },
-        {
-          "Up Air": [
-            {
-              "advantages": "-3",
-              "notes": "Auto cancels on frame 17 onward.",
-              "startup": "4",
-              "shieldLag": "7",
-              "percentBaseDamage": "7.0",
-              "shieldStun": "3",
-              "activeFrames": "4—7",
-              "landingLag": "6",
-              "hitboxMap": "--",
-              "totalFrames": "30"
-            }
-          ]
-        },
-        {
-          "Down Air": [
-            {
-              "advantages": "-11",
-              "notes": "Auto cancels on frame 1-4 and frame 33 onward.",
-              "startup": "5/7/9/11/13/23",
-              "shieldLag": "4/6/4",
-              "percentBaseDamage": "1.3/5.5",
-              "shieldStun": "2/3/3",
-              "activeFrames": "5/7/9/11/13/23(1—2)",
-              "landingLag": "15",
-              "hitboxMap": "Multihit/Final/Landing",
-              "totalFrames": "37"
-            }
-          ]
-        },
-        {
-          "Neutral B (Fireball)": [
-            {
-              "advantages": "-23",
-              "notes": "Fireball disappears on frame 88.",
-              "startup": "17",
-              "shieldLag": "6/5",
-              "percentBaseDamage": "5.0/4.0",
-              "shieldStun": "3/2",
-              "activeFrames": "17—20(21—46/47—86)",
-              "landingLag": "--",
-              "hitboxMap": "Early/Late",
-              "totalFrames": "49"
-            }
-          ]
-        },
-        {
-          "Side B (Cape)": [
-            {
-              "advantages": "-16",
-              "notes": "Reflects on frame 9-20.",
-              "startup": "12",
-              "shieldLag": "7",
-              "percentBaseDamage": "7.0",
-              "shieldStun": "7",
-              "activeFrames": "12—14",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "35"
-            }
-          ]
-        },
-        {
-          "Up B (Super Jump Punch)": [
-            {
-              "advantages": "--",
-              "notes": "Invulnerable on frame 3-6. Hits 2-6 rehit rate of 2.",
-              "startup": "3...",
-              "shieldLag": "6/4/5",
-              "percentBaseDamage": "5.0 / 0.6 / 3.0",
-              "shieldStun": "6/2/4",
-              "activeFrames": "3-6/7-16/17-18",
-              "landingLag": "30",
-              "hitboxMap": "First/multihit/Final",
-              "totalFrames": "--"
-            }
-          ]
-        },
-        {
-          "Down B (F.L.U.D.D.)": [
-            {
-              "advantages": "--",
-              "notes": "Startup is 2 from a charging state. Entering charge state takes 19 frames and is shield cancellable on 20.",
-              "startup": "2 (+19)",
-              "shieldLag": "--",
-              "percentBaseDamage": "--",
-              "shieldStun": "--",
-              "activeFrames": "21—**",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "48"
-            }
-          ]
-        },
-        {
-          "Down B, Fully Charged (F.L.U.D.D.)": [
-            {
-              "advantages": "--",
-              "notes": "Takes 100 frames to reach full charge.",
-              "startup": "21",
-              "shieldLag": "--",
-              "percentBaseDamage": "--",
-              "shieldStun": "--",
-              "activeFrames": "21—**",
-              "landingLag": "--",
-              "hitboxMap": "--",
-              "totalFrames": "67"
-            }
-          ]
-        }
+      "universe": "Mario",
+      "displayName": "Mario",
+      "images": [
+        "https://character-sprites.s3.us-east-2.amazonaws.com/mario.png",
+        "https://character-sprites.s3.us-east-2.amazonaws.com/mario2.png",
+        "https://character-sprites.s3.us-east-2.amazonaws.com/mario3.png"
       ],
-      "name": "Mario",
-      "charID": 1
+      "attributes": {
+        "dodge": {
+          "roll": {
+            "back": {
+              "intagibilityFrames": {
+                "fullyStale": {
+                  "stop": 14,
+                  "start": 9
+                },
+                "fresh": {
+                  "stop": 16,
+                  "start": 5
+                }
+              },
+              "totalFrames": {
+                "fullyStale": 51,
+                "fresh": 34
+              }
+            },
+            "forward": {
+              "intagibilityFrames": {
+                "fullyStale": {
+                  "stop": 14,
+                  "start": 8
+                },
+                "fresh": {
+                  "stop": 15,
+                  "start": 4
+                }
+              },
+              "totalFrames": {
+                "fullyStale": 38,
+                "fresh": 29
+              }
+            }
+          },
+          "spotDodge": {
+            "intagibilityFrames": {
+              "fullyStale": {
+                "stop": 17,
+                "start": 6
+              },
+              "fresh": {
+                "stop": 17,
+                "start": 3
+              }
+            },
+            "totalFrames": {
+              "fullyStale": 33,
+              "fresh": 25
+            }
+          },
+          "airDodge": {
+            "neutral": {
+              "intagibilityFrames": {
+                "fullyStale": {
+                  "stop": 27,
+                  "start": 6
+                },
+                "fresh": {
+                  "stop": 29,
+                  "start": 3
+                }
+              },
+              "totalFrames": {
+                "fullyStale": 52,
+                "fresh": 52
+              }
+            },
+            "side": {
+              "intagibilityFrames": {
+                "fullyStale": {
+                  "stop": 20,
+                  "start": 6
+                },
+                "fresh": {
+                  "stop": 21,
+                  "start": 3
+                }
+              },
+              "totalFrames": {
+                "fullyStale": 86,
+                "fresh": 86
+              }
+            },
+            "up": {
+              "intagibilityFrames": {
+                "fullyStale": {
+                  "stop": 20,
+                  "start": 6
+                },
+                "fresh": {
+                  "stop": 21,
+                  "start": 3
+                }
+              },
+              "totalFrames": {
+                "fullyStale": 115,
+                "fresh": 115
+              }
+            },
+            "down": {
+              "intagibilityFrames": {
+                "fullyStale": {
+                  "stop": 20,
+                  "start": 6
+                },
+                "fresh": {
+                  "stop": 21,
+                  "start": 3
+                }
+              },
+              "totalFrames": {
+                "fullyStale": 71,
+                "fresh": 71
+              }
+            }
+          }
+        },
+        "traction": 0.102,
+        "speed": {
+          "walkSpeed": 1.155,
+          "airSpeed": 1.208,
+          "fastFallingSpeed": 2.4,
+          "gravity": 0.087,
+          "airAcceleration": {
+            "max": 0.08,
+            "base": 0.01
+          },
+          "dash": {
+            "additionalAcceleration": 0.044,
+            "baseAcceleration": 0.10978,
+            "initialDash": 1.936,
+            "pivotDashFrames": 12,
+            "dashFrames": 10,
+            "runSpeed": 1.76
+          },
+          "fallingSpeed": 1.5
+        },
+        "jump": {
+          "shortHop": 17.54,
+          "fullHop": 36.33,
+          "airJump": 36.33
+        }
+      },
+      "id": 1
     }
   ]
 }
