@@ -20,9 +20,7 @@ const useStyles = makeStyles(theme => ({
     resize: "none",
     width: "100%",
     color:
-      localStorage.getItem("smashAPITheme") === "light"
-        ? "black"
-        : "whitesmoke",
+      localStorage.getItem("smashAPITheme") === "dark" ? "whitesmoke" : "black",
     backgroundColor: "transparent",
     border: "none",
     disabled: "true",
